@@ -1,219 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Black+Ops+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-  margin: 0%;
-  padding: 0%;
- background-color: #f5efef;
-  /* background-color: #232526; */
- 
-  
+
+
+body{
+  font-family: "Roboto Condensed", sans-serif;
 }
-/*--------------------- Nav Bar---------------------*/
 .nav-bar {
-  height: 80px;
-  width: 100%;
-  background-color:#d0cdcd;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  z-index: 99;
-  box-shadow: 0 -5px 10px 10px #a3a3a3;
-  display: flex;
-  border-radius:10px;
-
+  background-color:#282A35;
 }
-
-.logo {
-  float: left;
-  height: 100px;
-  position: absolute;
-  left: 20px;
-  border-radius:50%;
+.txt{
+  color: white;
+  font-size: 20px;
+ 
 }
-
-
-
+.brand-logo{
+ 
+  margin-left: -7px;
+}
+.brand-img{
+  border-radius: 40px;
+}
 .theme-icon{
-  height:30px;
+  background-color: white;
   width:30px;
-  cursor:pointer;
-  padding:5px;
-  border-radius: 5px;
-  background-color: #ffff;
-  margin:20px;
-} 
-.active{
-
-  border:1px solid  black;
+  height:30px;
+  margin: 10px;
+}
+.nav{
+  margin-right: -300px;
 }
 .theme-dark{
   background-color: black;
   color:#ffff;
 }
 .theme-light{
-  background-color:rgb(255, 255, 200);
+  background-color:white;
   color:black;
 }
-.quize_img{
-    height:600px;
-   margin-top: 70px;
-  padding:15px;
-   display:flex;
-  justify-content: center;
-}
 
- .dropdown{
-  display: inline-block;
-  margin-top:27px;
-
-}
-
-
-
-
-
-
-.menu {
-  position: absolute;
-  right: 100px;
-  top: 10px;
-  display: flex;
-  white-space: nowrap;
-  /* justify-content: space-between; */
-}
-
-.menu a {
-  text-decoration: none;
-  margin: 30px;
-  transition: all .4s ease-in-out;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.menu a:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  color:gold;
-}
-.hamburger{
-  position: absolute;
-  right: 20px;
-  top: 30px;
-}
-
-.bann {
-  background-image: url(./../images/221623-a-taxi-cab-driving-down-a-new-york-city-street-wit.jpg);
-  width: 100vdh;
-  min-height: 500px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center bottom;
-}
-
-.logo-name {
-  color: #fff;
-  font-size: 70px;
-  font-family: 'Black Ops One', system-ui;
-  position: absolute;
-  left: 100px;
-  top: 150px;
-}
-
-.tagline {
-  color: #fff;
-  font-size: 20px;
-  font-family: 'Acme', sans-serif;
-  position: absolute;
-  left: 200px;
-  top: 300px;
-}
-
-.Offer {
-  color: #fff;
-  font-size: 25px;
-  font-family: 'Acme', sans-serif;
-  text-align: center;
-  position: absolute;
-  right: 200px;
-  top: 180px;
-
-}
-
-
-
-/* -------------------- Responsive Design ------------------------- */
-/*--------------------- Nav Bar Responsive Design---------------------*/
-@media screen and (max-width: 700px) {
-  .hamburger{
-    visibility: hidden;
-  }
-  .nav-bar {
-    height: 70px;
-    width: 100%;
-    background-color:#3bfaba;
-    box-shadow: 2px #a3a3a3;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    box-shadow: 0 -5px 10px 5px #a3a3a3;
-
-  }
-
-  .logo {
-    float: left;
-    height: 50px;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-  }
-
-  /* Style navigation menu links */
-  .menu a {
-    text-decoration: none;
-    font-family: 'Acme', sans-serif;
-    font-size: 10px;
-    white-space: nowrap;
-    display: flex;
-
-  }
-
-  .menu {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    display: flex;
-  }
-
-}
-@media screen and (min-width: 701px) {
-  .hamburger{
-    visibility: hidden;
-  }
-
-}
-@media screen and (min-width: 700px) and (max-width:880px){
-  .menu {
-    font-size:15px ;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    display: flex;
-  }
-
-}
-@media screen and (max-width: 515px) {
-  .hamburger{
-    visibility: visible;
-  }
-  .menu{
-    display: none;
-  }
-
-}
-/*-----------Nav-bar Responsive End----------*/
-/*-----------Services Responsive start----------*/
