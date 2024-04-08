@@ -11,10 +11,8 @@ body{
 .txt{
   color: white;
   font-size: 20px;
- 
 }
 .brand-logo{
- 
   margin-left: -7px;
 }
 .brand-img{
@@ -25,6 +23,8 @@ body{
   width:30px;
   height:30px;
   margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 .nav{
   margin-right: -300px;
