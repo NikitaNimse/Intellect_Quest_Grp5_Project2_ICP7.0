@@ -1,0 +1,21 @@
+.theme-icon{
+    height:30px;
+    width:30px;
+    cursor:pointer;
+    padding:5px;
+    border-radius: 5px;
+    background-color: #ffff;
+  } 
+    
+      .active{
+      
+        border:1px solid  black;
+      }
+      .theme-dark{
+        background-color: black;
+        color:#ffff;
+      }
+      .theme-light{
+        background-color:rgb(255, 255, 200);
+        color:black;
+      }
