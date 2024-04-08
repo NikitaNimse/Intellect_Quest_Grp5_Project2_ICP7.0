@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+  font-family: "Roboto Condensed", sans-serif;
+}
+p{
+    font-weight: bold;
+   
+}
+.timer{
+    position: absolute;
+    right: 25px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.op{
+    margin-left: 25px;
+}
+.box{
+    position: absolute;
+    top: 250px;
+    right: 60px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    width: 530px;
+}
+.btn1{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px 15px ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+    box-shadow: 2px 2px 2px 2px white;
+    color: white;
+
+}
+.ext-btn{
+    padding: 10px 25px ;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: 10px auto;
+}
+.ext-btn:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.btn-question{
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.btn-1{
+    background-color: orange;
+    color: white;
+}
+.btn-2{
+    background-color:	 	 
+    #339966;
+    color: white;
+}
