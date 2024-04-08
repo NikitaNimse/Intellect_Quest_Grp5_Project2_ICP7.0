@@ -1,0 +1,75 @@
+.que {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 50px;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    margin: 3px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px 0 white;
+    transition: 0.5;
+}
+
+.que-body {
+    background-color: #666163;
+    position: relative;
+    right: 20px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+
+}
+
+.que-heading {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.pnbutton {
+    font-size: 20px;
+    border: none;
+    background-color: gray;
+    padding: 5px 25px;
+    position: relative;
+    bottom: -10px;
+
+}
+
+.btn-cont {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.timer{
+    position: absolute;
+    right: 20px;
+}

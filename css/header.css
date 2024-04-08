@@ -16,7 +16,7 @@ body {
   height: 100px;
   width: 100%;
   background-color:#d0cdcd;
-  position: fixed;
+  position: relative;
   top: 0px;
   left: 0px;
   right: 0px;
