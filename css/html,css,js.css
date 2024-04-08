@@ -61,7 +61,7 @@ display: inline-flex;
     display: flex;
     justify-content:center;
     align-items: center;
-    
+
 }
 
 .pnbutton {
@@ -70,8 +70,17 @@ display: inline-flex;
     background-color: gray;
     padding: 5px 25px;
     position: relative;
-    bottom: -160px;
+    bottom: -180px;
     margin: 30px;
+    border-radius: 8px;
+    
+}
 
+.a{
+    background-color: rgb(13, 180, 110);
+}
+
+.b{
+    background-color: rgb(61, 185, 243); 
 }
 
