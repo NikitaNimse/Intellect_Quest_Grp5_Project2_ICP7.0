@@ -48,3 +48,22 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.btn-cont {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.pnbutton {
+    font-size: 20px;
+    border: none;
+    background-color: gray;
+    padding: 5px 25px;
+    position: relative;
+    bottom: -80px;
+    margin: 30px;
+
+}
+
