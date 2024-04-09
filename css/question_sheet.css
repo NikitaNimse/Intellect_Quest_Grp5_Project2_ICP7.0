@@ -88,3 +88,14 @@ display: inline-flex;
 .b{
     background-color:rgb(87, 208, 252);
 }
+@media (max-width: 768px)  { 
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+        justify-content: space-between;
+    }
+    .que-body{
+        margin-top: 50px;
+    }
+ }
