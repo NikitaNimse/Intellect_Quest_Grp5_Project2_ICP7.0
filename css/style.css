@@ -12,7 +12,7 @@ body{
 }
 .txt{
   color: white;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .brand-logo{
@@ -23,15 +23,13 @@ body{
 }
 .theme-icon{
   background-color: white;
-  width:30px;
-  height:30px;
-  margin: 10px;
+  width:35px;
+  height:35px;
   cursor: pointer;
   border-radius: 10px;
+  margin: 10px 10px;
 }
-.nav{
-  margin-right: -300px;
-}
+
 .theme-dark{
   background-color: black;
   color:#ffff;
