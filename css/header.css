@@ -6,7 +6,22 @@ body{
   font-family: "Roboto Condensed", sans-serif;
 }
 .nav-bar {
+<<<<<<< HEAD
   background-color: black;
+=======
+  height: 80px;
+  width: 100%;
+  background-color:#d0cdcd;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 99;
+  box-shadow: 0 -5px 10px 10px #a3a3a3;
+  display: flex;
+  border-radius:10px;
+
+>>>>>>> 12d209f652098635f3f0f530e13f93438e0715cc
 }
 .txt{
   color: white;
