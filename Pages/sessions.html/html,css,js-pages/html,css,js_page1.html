@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML, CSS, JS Quiz page</title>
 
-    <link rel="stylesheet" href="./../../css/style.css">
-    <link rel="stylesheet" href="./../../css/html,css,js.css">
-    <link rel="stylesheet" href="./../../css/question_sheet.css">
+    <link rel="stylesheet" href="./../../../css/style.css">
+    
+    <link rel="stylesheet" href="./../../../css/question_sheet.css">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -29,7 +29,7 @@
                 <div class="container-fluid ms-3 ps-3">
 
                   <a class="navbar-brand brand-logo " href="#">
-                    <img src="./../../Images/logo-removebg-preview.png" alt="Bootstrap" class="brand-img" width="65">
+                    <img src="./../../../Images/logo-removebg-preview.png" alt="Bootstrap" class="brand-img" width="65">
                   </a>
               <a class="navbar-brand txt ms-0" href="#" style="color: black; text-align:center;">𝓘𝓷𝓽𝓮𝓵𝓵𝓮𝓬𝓽<br/> 𝓠𝓾𝓮𝓼𝓽</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,28 +38,28 @@
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link txt ps-5 font" aria-current="page" href="./../../index.html" >Home</a>
+                        <a class="nav-link txt ps-5 font" aria-current="page" href="./../../../index.html" >Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link txt ps-5" href="./../Pages/about_us.html">AboutUs</a>
+                        <a class="nav-link txt ps-5" href="./../../about_us.html">AboutUs</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link txt  ps-5" href="./../Pages/contact_us.html">ContactUs</a>
+                        <a class="nav-link txt  ps-5" href="./../../contact_us.html">ContactUs</a>
                       </li>
                       <li class="nav-item dropdown  ps-5">
                         <a class="nav-link txt dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Subjects
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="./../sessions.html/Java.html" target="_blank">Java</a></li>
-                          <li><a class="dropdown-item" href="./../Pages/sessions.html/CLanguage.html" target="_blank">C Programming</a></li>
-                          <li><a class="dropdown-item" href="./../Pages/sessions.html/CPP.html" target="_blank">C++ Programming</a></li>
-                          <li><a class="dropdown-item" href="./../Pages/sessions.html/Data_Analytics.html" target="_blank">Data Analytics</a></li>
-                          <li><a class="dropdown-item" href="./../Pages/sessions.html/Html_CSS_JS.html" target="_blank">HTML,CSS & JS</a></li>
+                          <li><a class="dropdown-item" href="./../Java.html" target="_blank">Java</a></li>
+                          <li><a class="dropdown-item" href="./../CLanguage.html" target="_blank">C Programming</a></li>
+                          <li><a class="dropdown-item" href="./../CPP.html" target="_blank">C++ Programming</a></li>
+                          <li><a class="dropdown-item" href="./../Data_Analytics.html" target="_blank">Data Analytics</a></li>
+                          <li><a class="dropdown-item" href="./../html,css,js-pages/html,css,js_page1.html" target="_blank">HTML,CSS & JS</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link txt ps-5" href="./../Pages/login.html">Login</a>
+                        <a class="nav-link txt ps-5" href="./../../login.html">Login</a>
                       </li>
                     </ul>
                   
@@ -70,9 +70,10 @@
                       <button class="btn btn-outline-light" type="submit">Search</button>
                     </form>
                   </div>
-                  <div class="container-fluid  ">
-                    <img src="./../../Images/dark-mode (2).png" class="theme-icon" id="img-dark" onclick="darkMode()" />
-                    <img src="./../../Images/light-mode (1).png" class="theme-icon" id="img-light" onclick="lightMode()" />
+
+                  <div class="container-fluid theam ">
+                    <img src="./../../../Images/dark-mode (2).png (2).png" class="theme-icon" id="img-dark" onclick="darkMode()" />
+                    <img src="./../../../Images/light-mode (1).png (1).png" class="theme-icon" id="img-light" onclick="lightMode()" />
                   </div>
                 </div>
               </nav>
@@ -93,19 +94,7 @@
         <div class="content">
 
             <div>
-                <p id="quesBox">1) What is the font-size of the h1 heading tag?</p>
-                <input type="radio" name="mcq" id="option1" class="options" value="a" />
-                <label for="option1">3.5 em
-                </label><br />
-                <input type="radio" name="mcq" id="option2" class="options" value="b" />
-                <label for="option2">2.17 em
-                </label><br />
-                <input type="radio" name="mcq" id="option3" class="options" value="c" />
-                <label for="option3">2 em
-                </label><br />
-                <input type="radio" name="mcq" id="option4" class="options" value="d" />
-                <label for="option4">1.5 em
-                </label><br />
+                <p id="quesBox"></p>
             </div>
 
 
@@ -148,11 +137,13 @@
 
         <div class="btn-cont">
             <button class="pnbutton a">🡰 Prev</button>
-            <button class="pnbutton b">Submit</button>
+            <button class="pnbutton b" id="submit">Submit</button>
             <button class="pnbutton a">Next 🡲</button>
         </div>
 
     </section>
+
+    <div class="result" id="result"> result is:</div>
 
 <script src="./../../js/script.js"></script>
 

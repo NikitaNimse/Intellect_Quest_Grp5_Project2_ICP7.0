@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 
 
 body{
@@ -80,6 +82,7 @@ display: inline-flex;
     position: relative;
     bottom: -30px;
     margin: 80px;
+    margin-bottom:20px ;
     border-radius: 8px;
     
 }
@@ -91,6 +94,16 @@ display: inline-flex;
 
 .b{
     background-color: rgb(61, 185, 243); 
+}
+
+.result{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:bold ;
+  font-style: normal;
 }
 
 
