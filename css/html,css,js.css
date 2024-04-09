@@ -1,6 +1,6 @@
 .que {
     margin: 20px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .content {
@@ -11,13 +11,14 @@
 }
 
 .que-body {
+    height: 200px;
     background-color: #898788;
     position: relative;
     right: 20px;
     border-radius: 10px;
     margin-left: 40px;
-    padding: 5px 10px;
-    padding-bottom: 15px;
+    padding: 5px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +33,6 @@
 
 .button {
     display:flex;
-
    flex-direction: column;
 }
 
@@ -41,10 +41,9 @@ display: inline-flex;
 }
 
 
-.btn {
+.que-btn {
     width: 50px;
     text-align: center;
-    padding: 3px;
     font-size: 20px;
     margin: 3px;
     border: 0.5px solid black;
@@ -52,7 +51,7 @@ display: inline-flex;
     cursor: pointer;
 }
 
-.btn:hover{
+.que-btn:hover{
     background-color: rgb(161, 199, 255);
     box-shadow: 2px 2px 2px white;
 }
@@ -70,7 +69,7 @@ display: inline-flex;
     background-color: gray;
     padding: 5px 25px;
     position: relative;
-    bottom: -180px;
+    bottom: -100px;
     margin: 30px;
     border-radius: 8px;
     
