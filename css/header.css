@@ -4,37 +4,43 @@
 
 body{
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #f7f6f6;
 }
 .nav-bar {
-  background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  background-color:#d0cdcd;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 99;
+  box-shadow: 0 -5px 10px 10px #a3a3a3;
+  display: flex;
+  border-radius:10px;
 
 }
 .txt{
   color: white;
-  font-size: 25px;
-  font-size: 22px;
+  font-size: 20px;
+ 
 }
-
 .brand-logo{
+ 
   margin-left: -7px;
 }
 .brand-img{
-  border-radius: 50px;
+  border-radius: 40px;
 }
 .theme-icon{
   background-color: white;
-  width:35px;
-  height:35px;
-  cursor: pointer;
-  border-radius: 10px;
-  margin: 10px 10px;
+  width:30px;
+  height:30px;
+  margin: 10px;
 }
-
 .nav{
-   margin-right: 5px; 
+  margin-right: -300px;
 }
-
 .theme-dark{
   background-color: black;
   color:#ffff;

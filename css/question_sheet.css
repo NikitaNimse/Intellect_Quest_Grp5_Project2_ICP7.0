@@ -80,6 +80,7 @@ display: inline-flex;
     position: relative;
     bottom: -30px;
     margin: 80px;
+    margin: 80px 30px;
     border-radius: 8px;
     
 }
