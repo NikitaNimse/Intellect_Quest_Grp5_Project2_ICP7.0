@@ -6,59 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML, CSS, JS Quiz page</title>
 
-    <link rel="stylesheet" href="./../../css/header.css">
-    <link rel="stylesheet" href="./../../css/html,css,js.css">
     <link rel="stylesheet" href="./../../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="i">
-    <script src="https://kit.fontawesome.com/6483843a61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./../../css/html,css,js.css">
+    <link rel="stylesheet" href="./../../css/question_sheet.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+   
+   
+
 
 </head>
 
-<body>
+<body id="body">
 
-    <!-- <header>
+    <header>
         <div class="nav-bar">
-            <div class="hamburger">
-                <img src="./../../Icons/menu (1).png " height="30px" alt="" id="hambergerBtn">
+            <nav class="navbar navbar-expand-lg nav ">
+                <div class="container-fluid ms-3 ps-3">
 
-            </div>
-            <div>
-                <a href="index.html"><img src="..\../Images\Intellect_Quest-removebg-preview (1).png" alt=" logo"
-                        class="logo"></a>
-            </div>
-
-            <div class="menu">
-                <a href="./../../index.html" CLASS="HOME">HOME</a>
-                <a href="./../../index.html" CLASS="HOME">LOGIN</a>
-                <a href="./../../pages/about.html" CLASS="ABOUT US">ABOUT US </a>
-                <a href="./../../pages/contact.html" CLASS="contact">CONTACT US</a>
-                <a href="./../../pages/service.html" CLASS="Services">SUBJECTS </a>
-
-
-
-                <div>
-                    <img src="..\../Images\dark-mode (2).png" class="theme-icon" id="img-dark" onclick=" darkMode()" />
-                    <img src="..\../Images\light-mode (1).png" class="theme-icon" id="img-light"
-                        onclick=" lightMode()" />
+                  <a class="navbar-brand brand-logo " href="#">
+                    <img src="./../../Images/logo-removebg-preview.png" alt="Bootstrap" class="brand-img" width="65">
+                  </a>
+              <a class="navbar-brand txt ms-0" href="#" style="color: black; text-align:center;">𝓘𝓷𝓽𝓮𝓵𝓵𝓮𝓬𝓽<br/> 𝓠𝓾𝓮𝓼𝓽</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link txt ps-5 font" aria-current="page" href="./../../index.html" >Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link txt ps-5" href="./../Pages/about_us.html">AboutUs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link txt  ps-5" href="./../Pages/contact_us.html">ContactUs</a>
+                      </li>
+                      <li class="nav-item dropdown  ps-5">
+                        <a class="nav-link txt dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Subjects
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./../sessions.html/Java.html" target="_blank">Java</a></li>
+                          <li><a class="dropdown-item" href="./../Pages/sessions.html/CLanguage.html" target="_blank">C Programming</a></li>
+                          <li><a class="dropdown-item" href="./../Pages/sessions.html/CPP.html" target="_blank">C++ Programming</a></li>
+                          <li><a class="dropdown-item" href="./../Pages/sessions.html/Data_Analytics.html" target="_blank">Data Analytics</a></li>
+                          <li><a class="dropdown-item" href="./../Pages/sessions.html/Html_CSS_JS.html" target="_blank">HTML,CSS & JS</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link txt ps-5" href="./../Pages/login.html">Login</a>
+                      </li>
+                    </ul>
+                  
+                  </div>
+                  <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                  </div>
+                  <div class="container-fluid  ">
+                    <img src="./../../Images/dark-mode (2).png" class="theme-icon" id="img-dark" onclick="darkMode()" />
+                    <img src="./../../Images/light-mode (1).png" class="theme-icon" id="img-light" onclick="lightMode()" />
+                  </div>
                 </div>
-            </div>
-        </div>
-    </header> -->
+              </nav>
+           </div>
+    </header>
+    <!-- Nav-Bar End --> 
 
 
 
 
     <section class="que">
 
-        <h3>Questions on HTML, CSS, JS :</h3>
+        <h2>Questions on HTML, CSS, JS :</h2>
         <HR>
-        <h4>Question No. 1 <span class="timer" id="timer"></span></h4>
+        <h3>Question No. 1 <span class="timer" id="timer"></span></h3>
         <hr>
-
-
+  
         <div class="content">
 
             <div>
@@ -83,28 +114,28 @@
                 <h3 class="que-heading">Choose a Question</h3>
                 <div class="button">
                     <div class="abc">
-                        <button class="btn">1</button>
-                        <button class="btn">2</button>
-                        <button class="btn">3</button>
-                        <button class="btn">4</button>
-                        <button class="btn">5</button>
+                        <button class="que-btn">1</button>
+                        <button class="que-btn">2</button>
+                        <button class="que-btn">3</button>
+                        <button class="que-btn">4</button>
+                        <button class="que-btn">5</button>
                     </div>
 
                     <div class="abc">
-                        <button class="btn">6</button>
-                        <button class="btn">7</button>
-                        <button class="btn">8</button>
-                        <button class="btn">9</button>
-                        <button class="btn">10</button>
+                        <button class="que-btn">6</button>
+                        <button class="que-btn">7</button>
+                        <button class="que-btn">8</button>
+                        <button class="que-btn">9</button>
+                        <button class="que-btn">10</button>
                     </div>
 
                     <div class="abc">
 
-                        <button class="btn">11</button>
-                        <button class="btn">12</button>
-                        <button class="btn">13</button>
-                        <button class="btn">14</button>
-                        <button class="btn">15</button>
+                        <button class="que-btn">11</button>
+                        <button class="que-btn">12</button>
+                        <button class="que-btn">13</button>
+                        <button class="que-btn">14</button>
+                        <button class="que-btn">15</button>
 
                     </div>
                 </div>
@@ -123,7 +154,7 @@
 
     </section>
 
-
+<script src="./../../js/script.js"></script>
 
 </body>
 

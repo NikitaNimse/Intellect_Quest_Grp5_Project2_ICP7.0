@@ -44,3 +44,4 @@ function lightMode(){
     // timer end
     
 }
+
