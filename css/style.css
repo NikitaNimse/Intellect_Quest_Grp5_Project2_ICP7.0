@@ -12,14 +12,14 @@ body{
 }
 .txt{
   color: white;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .brand-logo{
   margin-left: -7px;
 }
 .brand-img{
-  border-radius: 40px;
+  border-radius: 50px;
 }
 .theme-icon{
   background-color: white;
@@ -30,7 +30,7 @@ body{
   border-radius: 10px;
 }
 .nav{
-  margin-right: -300px;
+   margin-right: 5px; 
 }
 .theme-dark{
   background-color: black;
