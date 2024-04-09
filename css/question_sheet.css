@@ -1,4 +1,11 @@
-.que {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f7f6f6;
+}.que {
     margin: 20px;
     font-size: 30px;
 }
@@ -13,9 +20,12 @@
 .que-body {
     height: 200px;
     background-color: #898788;
+
+    background-color: rgb(234, 230, 230);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     position: relative;
     right: 20px;
-    border-radius: 10px;
     margin-left: 40px;
     padding: 5px;
     padding-bottom: 10px;
@@ -28,7 +38,7 @@
 .que-heading {
     font-size: 25px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .button {
@@ -41,18 +51,26 @@ display: inline-flex;
 }
 
 
-.que-btn {
+
+
+.btn1 {
+
     width: 50px;
     text-align: center;
     font-size: 20px;
-    margin: 3px;
+    margin: 6px;
     border: 0.5px solid black;
     border-radius: 5px;
     cursor: pointer;
 }
 
+
 .que-btn:hover{
     background-color: rgb(161, 199, 255);
+}
+
+.btn1:hover{
+    background-color: rgb(164, 192, 244);
     box-shadow: 2px 2px 2px white;
 }
 
@@ -60,7 +78,6 @@ display: inline-flex;
     display: flex;
     justify-content:center;
     align-items: center;
-
 }
 
 .pnbutton {
@@ -71,15 +88,26 @@ display: inline-flex;
     position: relative;
     bottom: -100px;
     margin: 30px;
+    margin: 100px 30px;
     border-radius: 8px;
-    
 }
 
 .a{
-    background-color: rgb(13, 180, 110);
+    background-color: rgb(102, 104, 228);
+    color: white;
 }
 
 .b{
-    background-color: rgb(61, 185, 243); 
+    background-color:rgb(87, 208, 252);
 }
-
+@media (max-width: 768px)  { 
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+        justify-content: space-between;
+    }
+    .que-body{
+        margin-top: 50px;
+    }
+ }

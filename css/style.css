@@ -4,17 +4,17 @@
 
 body{
   font-family: "Roboto Condensed", sans-serif;
+  background-color: #f7f6f6;
 }
 .nav-bar {
-    background: radial-gradient(circle at 10% 20%, rgb(210, 36, 129) 0%, rgb(152, 75, 215) 90%);
+  background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
+
 }
 .txt{
   color: white;
-  font-size: 20px;
+  font-size: 24px;
 }
-.txt:hover{
-  color: white;
-}
+
 .brand-logo{
   margin-left: -7px;
 }
