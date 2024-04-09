@@ -22,5 +22,25 @@ function lightMode(){
     bodylelement.classList.add('theme-light');
     const bodyelement=document.getElementById('body');
     bodyelement.classList.remove('theme-dark');
+
+    // timer
+    const startingMinutes = 30;
+    let time = startingMinutes * 60;
+
+    const countdownEl = document.getElementById('timer');
+
+    setInterval(Updatecountdown, 1000);
+
+
+    function Updatecountdown() {
+        const min = Math.floor(time / 60);
+        let sec = time % 60;
+
+        sec = sec < 10 ? '0' + sec : sec;
+
+        countdownEl.innerHTML = `Time Left: ${ min }: ${ sec }`;
+        time--;
+    }
+    // timer end
     
 }

@@ -19,31 +19,59 @@
     <!-- Navbar -->
     <header>
         <div class="nav-bar">
-            <div class="hamburger">
-                <img src="./../../Icons/menu (1).png" height="30px" alt="" id="hambergerBtn">
-
-            </div>
-            <div>
-                <a href="index.html"><img src="../../Images/Intellect_Quest-removebg-preview (1).png" alt=" logo"
-                        class="logo"></a>
-            </div>
-
-            <div class="menu">
-                <a href="./../../index.html" CLASS="HOME" target="_blank">HOME</a>
-                <a href="./../../index.html" CLASS="HOME" target="_blank">LOGIN</a>
-                <a href="./../../pages/about.html" CLASS="ABOUT US" target="_blank">ABOUT US </a>
-                <a href="./../../pages/contact.html" CLASS="contact" target="_blank">CONTACT US</a>
-                <a href="./../../pages/service.html" CLASS="Services" target="_blank">SUBJECTS </a>
-
-
-
-                <div>
-                    <img src="../../Images/dark-mode (2).png" class="theme-icon" id="img-dark" onclick=" darkMode()" />
-                    <img src="../../Images/light-mode (1).png" class="theme-icon" id="img-light" onclick=" lightMode()" />
+            <nav class="navbar navbar-expand-lg nav ">
+                <div class="container-fluid ms-3 ps-3">
+                    <a class="navbar-brand brand-logo " href="#">
+                        <img src="./../../Images/logo-removebg-preview-removebg-preview.jpg" alt="Bootstrap" class="brand-img" width="40">
+                      </a>
+                  <a class="navbar-brand txt ms-0" href="#">Intellect Quest</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link txt ps-5" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link txt ps-5" href="./Pages/about_us.html">AboutUs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link txt  ps-5" href="./Pages/contact_us.html">ContactUs</a>
+                      </li>
+                      <li class="nav-item dropdown  ps-5">
+                        <a class="nav-link txt dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Subjects
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./Pages/sessions.html/Java.html">Java</a></li>
+                          <li><a class="dropdown-item" href="./Pages/sessions.html/CLanguage.html">C Programming</a></li>
+                          <li><a class="dropdown-item" href="./Pages/sessions.html/CPP.html">C++ Programming</a></li>
+                          <li><a class="dropdown-item" href="./Pages/sessions.html/Data_Analytics.html">Data Analytics</a></li>
+                          <li><a class="dropdown-item" href="./Pages/sessions.html/Html_CSS_JS.html">HTML,CSS & JS</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link txt ps-5" href="./Pages/login.html">Login</a>
+                      </li>
+                    </ul>
+                  
+                  </div>
+                  <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                  </div>
+                  <div class="container-fluid  ">
+                    <img src="./../../Images/dark-mode (2).png" class="theme-icon" id="img-dark" onclick=" darkMode()" />
+                    <img src="./../../Images/light-mode (1).png" class="theme-icon" id="img-light" onclick=" lightMode()" />
+                  </div>
                 </div>
-            </div>
+              </nav>
+           </div>
     </header>
-
+    <!-- nav bar end -->
     <!-- Basic information -->
     <!-- <p>
     <h1 class="ps-3">Data Science - What is Data?</h1>
@@ -69,7 +97,7 @@
     <br> <br> -->
     <!-- MCQ Questions  -->
 
-    <div class="timer mt-5" id="clock" onclick="Currenttime()"></div>
+    <div class="timer mt-5" id="timer" onclick="Updatecountdown()"></div>
 
 
     <div class="questions-heading ps-3 mt-5">
@@ -144,12 +172,25 @@
 
     <!-- java-Script -->
     <script>
-        function Currenttime() {
-            const date = new Date();
-            const timestring = date.toLocaleTimeString();
-            document.getElementById('clock').innerText = timestring;
+        // timer
+        const startingMinutes = 30;
+        let time = startingMinutes * 60;
 
+        const countdownEl = document.getElementById('timer');
+
+        setInterval(Updatecountdown, 1000);
+
+
+        function Updatecountdown() {
+            const min = Math.floor(time / 60);
+            let sec = time % 60;
+
+            sec = sec < 10 ? '0' + sec : sec;
+
+            countdownEl.innerHTML = `Time Left: ${ min }: ${ sec }`;
+            time--;
         }
+        // timer end
         setInterval(Currenttime, 1000);
 
         // dark light mode
