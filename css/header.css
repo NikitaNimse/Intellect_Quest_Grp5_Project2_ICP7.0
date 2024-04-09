@@ -6,9 +6,7 @@ body{
   font-family: "Roboto Condensed", sans-serif;
 }
 .nav-bar {
-<<<<<<< HEAD
   background-color: black;
-=======
   height: 80px;
   width: 100%;
   background-color:#d0cdcd;
@@ -21,7 +19,6 @@ body{
   display: flex;
   border-radius:10px;
 
->>>>>>> 12d209f652098635f3f0f530e13f93438e0715cc
 }
 .txt{
   color: white;

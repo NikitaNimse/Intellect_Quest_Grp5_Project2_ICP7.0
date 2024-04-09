@@ -1,0 +1,86 @@
+.que {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+
+}
+
+.que-body {
+    background-color: #898788;
+    position: relative;
+    right: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 5px 10px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.que-heading {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    display:flex;
+
+   flex-direction: column;
+}
+
+.abc{
+display: inline-flex;
+}
+
+
+.btn {
+    width: 50px;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    margin: 3px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(161, 199, 255);
+    box-shadow: 2px 2px 2px white;
+}
+
+.btn-cont {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.pnbutton {
+    font-size: 20px;
+    border: none;
+    background-color: gray;
+    padding: 5px 25px;
+    position: relative;
+    bottom: -180px;
+    margin: 30px;
+    border-radius: 8px;
+    
+}
+
+.a{
+    background-color: rgb(13, 180, 110);
+}
+
+.b{
+    background-color: rgb(61, 185, 243); 
+}
+
