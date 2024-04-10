@@ -22,7 +22,8 @@ function lightMode(){
     bodylelement.classList.add('theme-light');
     const bodyelement=document.getElementById('body');
     bodyelement.classList.remove('theme-dark');
-
+    
+}
     // timer
     const startingMinutes = 30;
     let time = startingMinutes * 60;
@@ -43,6 +44,6 @@ function lightMode(){
     }
     // timer end
     
-}
+
 
 

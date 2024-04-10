@@ -6,38 +6,7 @@ body{
   font-family: "Roboto Condensed", sans-serif;
   background-color: #f7f6f6;
 }
-.nav-bar {
+.foot {
   background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
 
 }
-.txt{
-  color: white;
-  font-size: 22px;
-}
-
-.brand-logo{
-  margin-left: -7px;
-}
-.brand-img{
-  border-radius: 40px;
-}
-.theme-icon{
-  background-color: white;
-  width:35px;
-  height:35px;
-  cursor: pointer;
-  border-radius: 10px;
-  margin: 10px 10px;
-}
-
-.theme-dark{
-  background-color: black;
-  color:#ffff;
-
-}
-.theme-light{
-  background-color:white;
-  color:black;
-}
-
-
