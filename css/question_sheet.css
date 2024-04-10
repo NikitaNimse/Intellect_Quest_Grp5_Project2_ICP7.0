@@ -103,6 +103,34 @@ display: inline-flex;
         margin-top: 50px;
     }
     .timer{
-        margin-left: 390px;
+        margin-left: 48%;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 992px){ 
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        justify-content: space-between;
+    }
+    .que-body{
+        margin-top: 50px;
+    }
+    .timer{
+        margin-left: 58%;
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1200px){ 
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        justify-content: space-between;
+    }
+    .que-body{
+        margin-top: 50px;
+    }
+    .timer{
+        margin-left: 68%;
     }
  }
