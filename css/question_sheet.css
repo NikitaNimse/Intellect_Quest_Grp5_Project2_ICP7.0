@@ -98,8 +98,6 @@ display: inline-flex;
     background-color:rgb(87, 208, 252);
 }
 
-
-
 .result{
     text-align: center;
     margin-bottom: 10px;
@@ -111,10 +109,7 @@ display: inline-flex;
 }
 
 
-@media (max-width: 768px)  { 
-
 @media (min-width: 600px) and (max-width: 768px){ 
-
     .content {
         display: flex;
         flex-direction: column;
@@ -124,7 +119,6 @@ display: inline-flex;
     .que-body{
         margin-top: 50px;
     }
-
     .timer{
         margin-left: 48%;
     }
@@ -157,4 +151,3 @@ display: inline-flex;
         margin-left: 68%;
     }
  }
-
