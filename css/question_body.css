@@ -12,9 +12,9 @@ main {
 #quiz-container {
     text-align: center;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     justify-content: center;
-
+    
   
 }
 
@@ -24,12 +24,13 @@ main {
 }
 #options {
     list-style-type: none;
+  
 }
 
 #options li {
     font-size: 20px;
     width: 500px;
-    margin: 10px 530px;
+    margin: 10px 420px;
     background-color:rgb(142, 205, 228);
     border: 1px solid rgb(102, 104, 228);
     align-items: center;
@@ -48,7 +49,7 @@ main {
     padding: 5px 25px;
     position: relative;
     margin: 20px 0px;
-    margin-left: 27px;
+    margin-left: 40px;
     border-radius: 8px;
     background-color: rgb(102, 104, 228);
     cursor: pointer;
