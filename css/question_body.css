@@ -4,18 +4,6 @@
 
 
 
-body{
-  font-family: "Roboto Condensed", sans-serif;
-  background-color: #f7f6f6;
-}
-.que {
-    margin: 20px;
-    font-size: 25px;
-}
-.timer{
-    margin-left: 850px;
-}
-
 
 main {
     padding: 20px;
@@ -24,19 +12,17 @@ main {
 #quiz-container {
     text-align: center;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     justify-content: center;
-
-  
+    margin-left: -75px;
 }
 
 #question{
     margin-bottom: 30px;
+
 }
 #options {
     list-style-type: none;
-    padding: 0;
-   
 }
 
 #options li {
@@ -61,7 +47,7 @@ main {
     padding: 5px 25px;
     position: relative;
     margin: 20px 0px;
-    margin-left: 110px;
+    margin-left: 27px;
     border-radius: 8px;
     background-color: rgb(102, 104, 228);
     cursor: pointer;
