@@ -25,9 +25,7 @@ main {
     text-align: center;
     cursor: pointer;
     display: block;
-    justify-content: center;
-
-  
+    justify-content: center; 
 }
 
 #question{
