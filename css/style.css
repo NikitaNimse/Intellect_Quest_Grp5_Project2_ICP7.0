@@ -180,6 +180,13 @@ cursor:pointer;
 .pro-img-container{
 display:flex;
 justify-content: center;
+}
 
+.foot {
+  background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
+
+}
+.para{
+  text-align: justify;
 }
 

@@ -25,7 +25,7 @@ function lightMode(){
     
 }
     // timer
-    const startingMinutes = 30;
+    const startingMinutes = 15;
     let time = startingMinutes * 60;
 
     const countdownEl = document.getElementById('timer');
