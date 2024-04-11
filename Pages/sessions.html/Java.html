@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./../../css/style.css">
     <link rel="stylesheet" href="./../../css/question_sheet.css">
+    <link rel="stylesheet" href="./../../css/question_body.css">
 </head>
 <body id="body">
      <!-- Navbar -->
@@ -38,11 +39,11 @@
                           Subjects
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="./Java.html" target="_blank">Java</a></li>
-                          <li><a class="dropdown-item" href="./CLanguage.html" target="_blank">C Programming</a></li>
-                          <li><a class="dropdown-item" href="./CPP.html" target="_blank">C++ Programming</a></li>
-                          <li><a class="dropdown-item" href="./Data_Analytics.html" target="_blank">Data Analytics</a></li>
-                          <li><a class="dropdown-item" href="./Html_CSS_JS.html" target="_blank">HTML,CSS & JS</a></li>
+                          <li><a class="dropdown-item" href="./Java.html" target="_blank" onclick="confirm('Do you want to start java quiz?')">Java</a></li>
+                          <li><a class="dropdown-item" href="./../CLanguage.html" target="_blank"  onclick="confirm('Do you want to start C language quiz?')">C Programming</a></li>
+                          <li><a class="dropdown-item" href="./CPP.html" target="_blank" onclick="confirm('Do you want to start C++ quiz?')">C++ Programming</a></li>
+                          <li><a class="dropdown-item" href="./Data_Analytics.html" target="_blank" onclick="confirm('Do you want to start Data Analytics quiz?')">Data Analytics</a></li>
+                          <li><a class="dropdown-item" href="./Html_CSS_JS.html" target="_blank"  onclick="confirm('Do you want to start HTML,CSS & JS quiz?')">HTML,CSS & JS</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
@@ -67,76 +68,81 @@
     <!-- Nav-Bar End --> 
      <!-- MCQ Questions  -->      
     <section class="que">
-
-      <h3>Question's On Java Programming :</h3>
-      <HR>
-      <h4>Question No. 1 <span class="timer" id="timer"></span></h4>
+      <h3>Question's On Java Programming :  <span class="timer" id="timer"></span></h3>
+     
       <hr>
+          <main>
+              <div id="quiz-container">
+                  <h2 id="question"></h2>
+                  <ol id="options"></ol>
+                  <button id="submit-btn" onclick="showResult()">✅Submit</button>
+              </div>
+              <div id="result-container">
+                  <h2 id="result"></h2>
+                  <button id="restart-btn">🔄️Restart Quiz</button>
+              </div>
+          </main>
+    </section>
 
 
-      <div class="content">
-          
-          <div>
-              <p id="quesBox">1 . What is a correct syntax to output "Hello World" in Java?</p>
-              <input type="radio" name="mcq" id="option1" class="options" value="a" />
-              <label for="option1">  Console.WriteLine("Hello World");
-              </label><br />
-              <input type="radio" name="mcq" id="option2" class="options"value="b" />
-              <label for="option2">  System.out.println("Hello World");
-              </label><br />
-              <input type="radio" name="mcq" id="option3" class="options" value="c" />
-              <label for="option3">  echo("Hello World");
-              </label><br />
-              <input type="radio" name="mcq" id="option4" class="options" value="d" />
-              <label for="option4">print("Hello World");
-              </label><br />
-          </div>
-
-          <div class="que-body">
-            <h3 class="que-heading">Choose a Question</h3>
-            <div class="button">
-                <div class="abc">
-                    <button class="btn1">1</button>
-                    <button class="btn1">2</button>
-                    <button class="btn1">3</button>
-                    <button class="btn1">4</button>
-                    <button class="btn1">5</button>
-                </div>
-
-                <div class="abc">
-                    <button class="btn1">6</button>
-                    <button class="btn1">7</button>
-                    <button class="btn1">8</button>
-                    <button class="btn1">9</button>
-                    <button class="btn1">10</button>
-                </div>
-
-                <div class="abc">
-
-                    <button class="btn1">11</button>
-                    <button class="btn1">12</button>
-                    <button class="btn1">13</button>
-                    <button class="btn1">14</button>
-                    <button class="btn1">15</button>
-
-                </div>
+     <!--footer-->
+   <div class="bg-dark ~ text-light p-4 foot">
+    <div class="row">
+        <div class="col-lg-3 my-auto">
+            <img class="d-block" src="./../../Images/logo-removebg-preview.png" width="100px">
+            <p class="pt-3">Get in Touch with us:</p>
+            <div>
+                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fs-2 p-2 pt-0"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fs-2 p-2 pt-0"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/roadtocode4u/"><i class="fa-brands fa-instagram fs-2 p-2 pt-0"
+                        style="color: #ffffff;"></i></a>
+                <a href="https://twitter.com/roadtocode4u"><i class="fa-brands fa-x-twitter fs-2 p-2 pt-0"
+                        style="color: #ffffff;"></i></a>
+                <a href="mailto:suraj@roadtocode.org"><i class="fa-regular fa-envelope fs-2 p-2 pt-0"
+                        style="color: #ffffff;"></i></a>
             </div>
-
+        </div>
+        <div class="col-lg-4 my-auto">
+            <p> Unity Uplift foundation is a non government organization,
+                registered under the company Act 2013. It
+                is set up to tackle the different types of problems, especially regarding children, disabled and
+                women. We work for children's education, health, human rights...</p>
+        </div>
+        <div class="col-lg-2">
+            <p class="fs-4"><u>Important links:</u></p>
+            <ul>
+                <li><a href="./index.html" class="text-decoration-none text-light">Home</a></li>
+                <li><a href="./about_us.html" class="text-decoration-none text-light">About</a></li>
+                <li><a href="./subject.html" class="text-decoration-none text-light">Subject</a></li>
+                <li><a href="./contact_us.html" class="text-decoration-none text-light">Contact</a></li>
+            </ul>
         </div>
 
+        <div class="col-lg-3 d-flex flex-column">
+            <a><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                404, Laxmi Heights, Above Lotus Multi-Speciality Hospital Manjari BK, Pune- 412307</a>
+            <br />
+            <a href="tel:8805803087" class="text-decoration-none text-light"><i class="fa-solid fa-phone"
+                    style="color: #ffffff;"></i> +91 88058 03087</a>
+            <br />
+            <a href="tel:7821011976" class="text-decoration-none text-light "><i class="fa-solid fa-phone"
+                    style="color: #ffffff;"></i> +91 78210 11976</a><br />
+            <a href="mailto:suraj@roadtocode.org" class="text-decoration-none text-light"><i
+                    class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                suraj@roadtocode.org</a>
+        </div>
     </div>
+    <hr />
+    <p class="text-center">Copyright © 2024 <a href="index.html" class="link-warning text-decoration-none">Unity
+            Uplift</a></p>
+</div>
+<!--end of footer-->
 
+    <script src="./../../js/script.js"></script>
+    <script src="./../../js/java.js"></script>
+    <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
 
-
-    <div class="btn-cont">
-        <button class="pnbutton a" id="btn-pre">🡰 Prev</button>
-        <button class="pnbutton b">Submit</button>
-        <button class="pnbutton a" id="btn-next">Next 🡲</button>
-    </div>
-
-</section>
-
-
-     <script src="./../../js/script.js"></script>
 </body>
 </html>
