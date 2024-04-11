@@ -72,27 +72,22 @@
 
       <h3>Question's On Data Analytics :</h3>
       <HR>
-      <h4>Question No. 1 <span class="timer" id="timer"></span></h4>
+      <h4>Question No. <span id="Q-number">1</span> <span class="timer" id="timer"></span></h4>
       <hr>
 
 
       <div class="content">
           
-          <div>
-              <p id="quesBox">1 . What is the primary goal of exploratory data analysis (EDA)?</p>
-              <input type="radio" name="mcq" id="option1" class="options" value="a" />
-              <label for="option1"> Making predictions
-              </label><br />
-              <input type="radio" name="mcq" id="option2" class="options"value="b" />
-              <label for="option2">  Summarizing data characteristics
-              </label><br />
-              <input type="radio" name="mcq" id="option3" class="options" value="c" />
-              <label for="option3">  Testing hypotheses
-              </label><br />
-              <input type="radio" name="mcq" id="option4" class="options" value="d" />
-              <label for="option4">Model deployment
-              </label><br />
-          </div>
+        <div id="quiz">
+          <div id="question"></div>
+          <div  class="button" id="options"></div>
+          
+          <!-- <button id="submitBtn">Submit</button> -->
+      </div>
+      <div id="result" style="display: none;">
+          <h2>Result:</h2>
+          <p id="score"></p>
+      </div>
 
           <div class="que-body">
             <h3 class="que-heading">Choose a Question</h3>
@@ -139,7 +134,7 @@
 </section>
 
 
-     <script src="./../../js/script.js"></script>
+     <script src="./../../js/Data_Analytics.js"></script>
 
       <!--footer-->
     <div class="bg-dark ~ text-light p-4 foot">
