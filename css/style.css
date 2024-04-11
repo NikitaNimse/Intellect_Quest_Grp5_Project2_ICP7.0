@@ -59,7 +59,7 @@ body{
       color:#ffff;
     }
     .theme-light{
-      background-color:rgb(255, 255, 200);
+      background-color:#ffff;
       color:black;
     }
 
@@ -159,20 +159,17 @@ margin-top:30px;
 /*implemennt like card review */
 
 #main-prodimg{
-
 height:500px;
 width:1500px;
 margin-top: 5px;
 margin-left:10px;
-
-
-
 border:1px solid black;
 border-radius:20px;
 box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
 display: flex;
 margin:20px auto;
 }
+
 .pro-img{
 height:70px;
 width:70px;
@@ -190,7 +187,6 @@ justify-content: center;
 
 .foot {
   background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
-
 }
 .para{
   text-align: justify;
