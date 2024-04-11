@@ -63,7 +63,7 @@ function lightMode(){
        
         previousPageButton.addEventListener("click", function () {
            
-            window.location.href = "Data_Analytics.html";
+            window.location.href = "Clanguage.html" ;
         });
 
         // previous button  end
