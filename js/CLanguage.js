@@ -1,133 +1,208 @@
-
 const quizData = [
     {
-        question: " 1. Who is the father of C Langauge ?",
-        options: ["Steve Jobs", "Dennis Ritchie", "James Gosling", "Rasmus Lerdorf"],
-        answer: "Dennis Ritchie"
+        question : "1. Who is the father of C Language ?",
+        options : [ "Steve Jobs",
+            "Dennis Retchie",
+            "James Gosling",
+            "Rasmus Lerdorf"
+        ],
+        answer : "Dennis Retchie "
     },
     {
-        question: " 2. Which of the following is not a valid C variable name ?",
-        options: ["int number;", "float rate;", "int variable_count;", "int $main;"],
-        answer: "int $main; "
+        question : "2. Which of the following declaration is not supported in C Langauge?",
+        options : [
+            "string str;",
+            "char *str;",
+            "float str = 3e2;",
+            "All of the above"
+        ],
+        answer : "string str;"
     },
     {
-        question: " 3. Which is valid C expression ?",
-        options: [" int my_num = 100,000;", " int my_num = 100000;", " int my num = 1000;", "int $my_num = 100000;"],
-        answer: "int my_num = 100000"
+        question : "3. Which symbol is used to define a pointer in C Language ?",
+        options : [
+            " = ",
+            " ' ",
+            " * ",
+            "None of the above"
+        ],
+        answer : " * "
     },
     {
-        question: " 4. How is the range if a dataset calculator ?",
-        options: ["The diffrence between the blargest and smallest values", "The sum of all values", "The product od all value", "The average of all values"],
-        answer: "The diffrence between the blargest and smallest values"
+        question : "4. Which keyword is prevent any changes in the variable within C language ?",
+        options : [
+            "enum",
+            "mutable",
+            "const",
+            "volatile"
+        ],
+        answer : "const"
     },
     {
-        question: " 5. What does a histogram visualize ?",
-        options: ["Relationship between two variable", "Distribution of a single variable", "Hierarchical data structures", "Time-series data"],
-        answer: "Distribution of a single variable"
+        question : "5. which of the following cannot be a variable name in C Language ?",
+        options : [
+            "volatile",
+            "true",
+            "friend",
+            "export"
+        ],
+        answer : "volatile"
     },
     {
-        question: " 6. What is the purpose of correlation in data analysis ?",
-        options: ["Causation between variable", "Descibing the spread of data", "Measuring the strengeth and direction of a linear relationship", "Identify outlier"],
-        answer: "Measuring the strengeth and direction of a linear relationship"
+        question : "6. What is #include<stdio.h> in C Language ?",
+        options : [
+            "file inclusion",
+            "inclusion directive ",
+            "Preprocessor directive",
+            "None of the above"
+        ],
+        answer : "Preprocessor directive "
     },
     {
-        question: " 7. In data analysis , What does the term 'skewness' measure ?",
-        options: ["The symmetry od a distribution", "The spread of data", "The correlation between two variables", "The presence of outlier"],
-        answer: "The symmetry od a distribution"
+        question : "7. functions can return enumeration constants in C Language?",
+        options : [
+            "true",
+            "false",
+            "depends on standard",
+            "depends on compiler"
+        ],
+        answer : "true"
     },
     {
-        question: " 8. What is the significace of the term Standard deviation ?",
-        options: ["Measurig central tendency", "Describing the spread or dispersion of data", "Identifying the most frequen value", "Represnting the range value"],
-        answer: "Describing the spread or dispersion of data"
+        question : "8. What is an example of iteration in C Language?",
+        options : [
+            "for",
+            "while",
+            "do-while",
+            "All of the above"
+        ],
+        answer : "All of the above "
     },
     {
-        question: " 9. What is is the purpose of a box plot in data analysis ?",
-        options: ["Reprenting the distribution of a single variable", "Showng the realtion between two variable", "Identifying outliers and displaying the spread of data", "Displaying hirarchical realtionships"],
-        answer: "Identifying outliers and displaying the spread of data"
+        question : "9. All keywords in C Language are in___?",
+        options : [
+            "LowerCase",
+            " UpperCase",
+            " CamelCase",
+            "None of the above"
+        ],
+        answer : "LoweCase"
     },
     {
-        question: " 10. What is the primary goal of hypothesis testing in data analysis ?",
-        options: ["Descrining the central tendency of data ", "Identifying outliers", "Making predictions", "Drawing inference about population based on sample data"],
-        answer: "Drawing inference about population based on sample data"
+        question : "10. Which of the following are C preprocessors?",
+        options : [
+            "#ifdef",
+            "#define",
+            "#endif",
+            "All of the above"
+        ],
+        answer :" All of the above  "
     },
     {
-        question: " 11. What is the purpose of the term Multicollinearity in regression analysis ?",
-        options: ["Identifing outlier in a dataset", "Assessing the spread of data", "Evaluation thr correlation between predircetion variables", "Handling missing values i regression models"],
-        answer: "Evaluation thr correlation between predircetion variables"
+        question : "11. Which of the following is not possible statically in C Language?",
+        options : [
+            "Jagged Array",
+            "Rectangular Array",
+            "Cuboidal Array",
+            "Multidimensional Array"
+        ],
+        answer : " Jagged Array"
     },
     {
-        question: " 12. How does the term Ensemble Learning improve model performing in machine learning ?",
-        options: ["Reducing model complexity", "Combining prediction from multiple models", "Handeling outlier by giving less weight to extreme values", "Ensuring that features contribute  equally to a model"],
-        answer: "Combining prediction from multiple models"
+        question : "12. In C Language, FILE is of which data type?",
+        options : [
+            "int",
+            "char",
+            "float",
+            "Struct"
+        ],
+        answer : " Struct"
     },
     {
-        question: " 13. What is the purpose of th term Hierarchical Clustering n clustering analysis ?",
-        options: ["Assessing the correlation between clusters ", "Creating a hierarchy of clusters based on similarities", "Identifying outliers in clustered data", "Measuring the similarity within clusters"],
-        answer: "Creating a hierarchy of clusters based on similarities"
+        question : "13. Which of the following is not an operator in C?",
+        options : [
+            " K ",
+            "sizeof()",
+            "~",
+            "None of the above"
+        ],
+        answer : "None of the above "
     },
     {
-        question: " 14. What does th term Confidence interval Represent in statistical analysis ?",
-        options: ["The range of valu witin which a population parameter is estimated to lie", "The average of sample values", "The proportion of data falling within a specifed range", "The standard eror of the mean"],
-        answer: "The range of valu witin which a population parameter is estimated to lie"
+        question : "14. scanf() is predefined function in_________header file?",
+        options : [
+           "stdlib.h",
+           "ctype.h",
+           "stdio.h",
+           "stdarg.h"
+        ],
+        answer : " stdio.h"
     },
     {
-        question: " 15. What is the primary purpose of the term Confusion Matrix in classification problems ?",
-        options: ["Assessing multicollonearity in regression model", "Evaluating the distribution of residuals", "Summarizing the performance od a classification model ", "Identifying outlier in a dataset"],
-        answer: "Summarizing the performance od a classification model"
-    }
-    
-    // Add more questions as needed
-];
+        question : "15.What is the size of the int data type?",
+                                                                    
+        options : [
+            "5",
+            "1 ",
+            " 4",
+            " 3"
+        ],
+        answer : "4"
+    } 
+]
 
-const quizContainer = document.getElementById("quiz");
-const resultContainer = document.getElementById("result");
-// const submitButton = document.getElementById("submitBtn");
 
 let currentQuestion = 0;
 let score = 0;
 
-function displayQuestion() {
-    const q = quizData[currentQuestion];
-    document.getElementById("question").textContent = q.question;
+const questionElement = document.getElementById('question');
+const optionsElement = document.getElementById('options');
+const resultElement = document.getElementById('result');
+const quizContainer = document.getElementById('quiz-container');
+const resultContainer = document.getElementById('result-container');
 
-    const optionsContainer = document.getElementById("options");
-    optionsContainer.innerHTML = "";
-    q.options.forEach((option, index) => {
-        const optionElement = document.createElement("radio");
+function loadQuestion() {
+    const currentQuizData = quizData[currentQuestion];
+    questionElement.textContent = currentQuizData.question;
+    optionsElement.innerHTML = '';
+    currentQuizData.options.forEach(option => {
+        const optionElement = document.createElement('li');
         optionElement.textContent = option;
-        optionElement.addEventListener("click", () => {
-            selectOption(option);
+        optionElement.addEventListener('click', () => {
+            checkAnswer(option);
         });
-        optionsContainer.appendChild(optionElement);
+        optionsElement.appendChild(optionElement);
     });
 }
-console.log(quizData);
 
-
-function selectOption(option) {
-    const q = quizData[currentQuestion];
-    if (option === q.answer) {
+function checkAnswer(answer) {
+    if (answer === quizData[currentQuestion].answer) {
         score++;
     }
     currentQuestion++;
-    if (currentQuestion < quizData.length) { //this point need to edit
-        displayQuestion();
-    } 
-    else {
+    if (currentQuestion < quizData.length) {
+        loadQuestion();
+    } else {
         showResult();
     }
 }
 
 function showResult() {
-    quizContainer.style.display = "none";
-    resultContainer.style.display = "block";
-    document.getElementById("score").textContent = `You scored ${score} out of ${quizData.length}.`;
+    quizContainer.style.display = 'none';
+    resultContainer.style.display = 'block';
+    resultElement.textContent = `You scored ${score} out of ${quizData.length}`;
 }
 
-displayQuestion();
+function restartQuiz() {
+    currentQuestion = 0;
+    score = 0;
+    quizContainer.style.display = 'block';
+    resultContainer.style.display = 'none';
+    loadQuestion();
+}
 
-submitButton.addEventListener("click", () => {
-    if (currentQuestion < quizData.length) {
-        selectOption(null); // No option selected
-    }
-});
+document.getElementById('submit-btn').addEventListener('click', loadQuestion);
+document.getElementById('restart-btn').addEventListener('click', restartQuiz);
+
+// Load first question
+loadQuestion();
