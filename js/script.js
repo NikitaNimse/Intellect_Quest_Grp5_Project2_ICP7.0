@@ -25,7 +25,7 @@ function lightMode(){
     
 }
     // timer
-    const startingMinutes = 30;
+    const startingMinutes = 15;
     let time = startingMinutes * 60;
 
     const countdownEl = document.getElementById('timer');
@@ -63,7 +63,7 @@ function lightMode(){
        
         previousPageButton.addEventListener("click", function () {
            
-            window.location.href = "Data_Analytics.html";
+            window.location.href = "Clanguage.html" ;
         });
 
         // previous button  end
