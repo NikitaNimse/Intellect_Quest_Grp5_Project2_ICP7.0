@@ -22,7 +22,8 @@ function lightMode(){
     bodylelement.classList.add('theme-light');
     const bodyelement=document.getElementById('body');
     bodyelement.classList.remove('theme-dark');
-
+    
+}
     // timer
     const startingMinutes = 30;
     let time = startingMinutes * 60;
@@ -43,6 +44,28 @@ function lightMode(){
     }
     // timer end
     
-}
+    // next button 
+       
+        const nextPageButton = document.getElementById("btn-next");
+
+       
+        nextPageButton.addEventListener("click", function () {
+           
+            window.location.href = "java.html";
+        });
+
+        // next button end
+
+        // previous button  
+
+        const previousPageButton = document.getElementById("btn-pre");
+
+       
+        previousPageButton.addEventListener("click", function () {
+           
+            window.location.href = "Data_Analytics.html";
+        });
+
+        // previous button  end
 
 
