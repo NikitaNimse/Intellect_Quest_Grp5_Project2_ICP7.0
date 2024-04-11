@@ -39,29 +39,12 @@ body{
   background-color:white;
   color:black;
 }
-/* homepage content css */
-
-.theme-icon{
-  height:30px;
-  width:30px;
-  cursor:pointer;
-  padding:5px;
-  border-radius: 5px;
-  background-color: #ffff;
-} 
   /*js script css*/
     .active{
     
       border:1px solid  black;
     }
-    .theme-dark{
-      background-color: black;
-      color:#ffff;
-    }
-    .theme-light{
-      background-color:#ffff;
-      color:black;
-    }
+    
 
         /*body img */
 
