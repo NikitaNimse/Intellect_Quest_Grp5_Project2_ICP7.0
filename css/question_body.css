@@ -11,6 +11,7 @@ main {
 .question-body{
     display:flex;
     flex-direction: row;
+    padding: 20px 0px;
 }
 #quiz-container {
     text-align: center;
