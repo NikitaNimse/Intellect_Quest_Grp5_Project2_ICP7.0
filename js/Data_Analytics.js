@@ -92,6 +92,7 @@ function displayQuestion() {
 
     const optionsContainer = document.getElementById("options");
     optionsContainer.innerHTML = "";
+    console.log
     q.options.forEach((option, index) => {
         const optionElement = document.createElement("radio");
         optionElement.textContent = option;
