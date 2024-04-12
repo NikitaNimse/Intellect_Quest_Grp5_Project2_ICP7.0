@@ -181,30 +181,7 @@ justify-content: center;
 
 
 @media (min-width: 768px) and (max-width: 992px){ 
-  {
-      font-size: 24px;
-      width: 350px;
-      margin: 10px 18%;
-  }
-  {
-      font-size: 24px;
-      margin-left: 1px;
-  }
- 
-}
-@media (min-width: 992px) and (max-width: 1200px){ 
-  #question{
-      margin-left: 75px;
-  }
-  #options li {
-      font-size: 26px;
-      width: 350px;
-      margin: 10px 45%;
-  }
-  #submit-btn, #restart-btn{
-      font-size: 26px;
-      margin-left: 325px;
-  }
-  
+
 }
 
+  
