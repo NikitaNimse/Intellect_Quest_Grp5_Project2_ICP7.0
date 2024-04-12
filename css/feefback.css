@@ -1,0 +1,47 @@
+    
+.container {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    }
+    
+    .card {
+    max-width: 33rem;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%); 
+    margin: 50px auto;
+    margin-bottom: 110px;
+    margin-top: 25px;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 0.5rem;
+    }
+    
+    .star {
+    font-size: 10vh;
+    cursor: pointer;
+    }
+    
+    
+    .star-color {
+    color: rgb(255, 106, 0);
+    }
+    
+    
+    .ta{
+        padding: 10px;
+        margin: 10px;
+    }
+    .review_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+    font-weight:bold;
+    
+    }
