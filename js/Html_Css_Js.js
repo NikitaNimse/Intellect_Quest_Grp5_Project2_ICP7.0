@@ -131,7 +131,7 @@ const quizData = [
             answer : "7 6"
         },
         {
-            question : "28) What will be the output for the following code snippet for(let i=1; ;i++) { Let data= i*5; console.log(data) if(data>=30) break; }",
+            question : "14) What will be the output for the following code snippet for(let i=1; ;i++) { Let data= i*5; console.log(data) if(data>=30) break; }",
             options : [
                 "Infinite loop",
                 "5 10 15 20 25 30",
@@ -141,7 +141,7 @@ const quizData = [
             answer : "5 10 15 20 25 30"
         },
         {
-            question : "29) Inside which HTML element do we put the JavaScript?",
+            question : "15) Inside which HTML element do we put the JavaScript?",
             options : [
                 "<javascript>",
                 "<js>",
