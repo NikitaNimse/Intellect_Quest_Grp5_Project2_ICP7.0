@@ -16,7 +16,7 @@
 
     }
     else if(num==2){
-        mainimg.src="./Images/homepgimg2.jpg";
+        mainimg.src="./Images/squote2 - Copy (2).webp";
     }
     else if(num==3){
         mainimg.src="./Images/hmpg3.jpeg";
