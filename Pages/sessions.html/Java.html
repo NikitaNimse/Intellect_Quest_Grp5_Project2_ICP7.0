@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./../../css/style.css">
-    <link rel="stylesheet" href="./../../css/question_sheet.css">
     <link rel="stylesheet" href="./../../css/question_body.css">
 </head>
 <body id="body">
@@ -43,7 +42,7 @@
                           <li><a class="dropdown-item" href="./../CLanguage.html" target="_blank"  onclick="confirm('Do you want to start C language quiz?')">C Programming</a></li>
                           <li><a class="dropdown-item" href="./CPP.html" target="_blank" onclick="confirm('Do you want to start C++ quiz?')">C++ Programming</a></li>
                           <li><a class="dropdown-item" href="./Data_Analytics.html" target="_blank" onclick="confirm('Do you want to start Data Analytics quiz?')">Data Analytics</a></li>
-                          <li><a class="dropdown-item" href="./Html_CSS_JS.html" target="_blank"  onclick="confirm('Do you want to start HTML,CSS & JS quiz?')">HTML,CSS & JS</a></li>
+                          <li><a class="dropdown-item" href="./html,css,js_page.html" target="_blank"  onclick="confirm('Do you want to start HTML,CSS & JS quiz?')">HTML,CSS & JS</a></li>
                           <li><a class="dropdown-item" href="./Python.html" target="_blank"  onclick="confirm('Do you want to start Python quiz?')">Python</a></li>
                         </ul>
                       </li>
@@ -68,52 +67,21 @@
     </header>
     <!-- Nav-Bar End --> 
      <!-- MCQ Questions  -->      
-    <section class="que">
+  <section class="que">
       <h3>Question's On Java Programming :  <span class="timer" id="timer"></span></h3>
       <hr>
       <div class="question-body">
-        <div id="quiz-container">
-            <h2 id="question"></h2>
-            <ol id="options"></ol>
-            <button id="submit-btn" onclick="showResult()">✅Submit</button>
-        </div>
-        <div id="result-container">
-            <h2 id="result"></h2>
-            <button id="restart-btn">🔄️Restart Quiz</button>
-        </div>
-        
-    <div class="que-body">
-      <h3 class="que-heading">Choose a Question</h3>
-      <div class="button">
-          <div class="abc">
-              <button class="btn1" id="btn-qs" onclick="showQuestion(1) ">1</button>
-              <button class="btn1" id="btn-qs" onclick="showQuestion(2) ">2</button>
-              <button class="btn1" id="btn-qs">3</button>
-              <button class="btn1" id="btn-qs">4</button>
-              <button class="btn1" id="btn-qs">5</button>
+          <div id="quiz-container">
+              <h2 id="question"></h2>
+              <ol id="options"></ol>
+              <button id="submit-btn" onclick="showResult()">✅Submit</button>
           </div>
-
-          <div class="abc">
-              <button class="btn1"  id="btn-qs">6</button>
-              <button class="btn1"  id="btn-qs">7</button>
-              <button class="btn1"  id="btn-qs">8</button>
-              <button class="btn1"  id="btn-qs">9</button>
-              <button class="btn1"  id="btn-qs">10</button>
+          <div id="result-container">
+              <h2 id="result"></h2>
+              <button id="restart-btn">🔄️Restart Quiz</button>
           </div>
-
-          <div class="abc">
-
-              <button class="btn1"  id="btn-qs">11</button>
-              <button class="btn1"  id="btn-qs">12</button>
-              <button class="btn1"  id="btn-qs">13</button>
-              <button class="btn1"  id="btn-qs">14</button>
-              <button class="btn1"  id="btn-qs">15</button>
-
-          </div>
-      </div>
-      </div>
-  </div>
-</section>
+       </div>
+  </section>
 
 
      <!--footer-->
