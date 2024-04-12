@@ -120,6 +120,7 @@ function showResult() {
 }
 
 function restartQuiz() {
+    comfirm("Are You Sure You Want to restart c++ quiz?");
     currentQuestion = 0;
     score = 0;
     quizContainer.style.display = 'block';
