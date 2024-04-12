@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+
+
+main {
+    padding: 20px;
+}
+.question-body{
+    display:flex;
+    flex-direction: row;
+    padding: 20px 0px;
+}
+#quiz-container {
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    justify-content: center;
+}
+
+#question{
+    margin-bottom: 30px;
+}
+#options {
+    list-style-type: none;
+}
+
+#options li {
+    font-size: 26px;
+    width: 550px;
+    margin: 10px 100px;
+    background-color:rgb(142, 205, 228);
+    border: 1px solid rgb(102, 104, 228);
+    align-items: center;
+    justify-content: center;
+   border-radius: 5px;
+}
+
+#options li:hover{
+    background-color:  rgb(102, 104, 228);
+}
+
+#submit-btn {
+    font-size: 26px;
+    border: none;
+    padding: 5px 25px;
+    position: relative;
+    margin: 20px 0px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: rgb(102, 104, 228);
+    cursor: pointer;
+}
+#restart-btn {
+    font-size: 26px;
+    border: none;
+    padding: 5px 25px;
+    position: relative;
+    margin: 20px 0px;
+    
+    border-radius: 8px;
+    background-color: rgb(102, 104, 228);
+    cursor: pointer;
+}
+
+#result-container {
+    display: none;
+    text-align: center;
+    margin-left: 350px;
+}
+
+@media (min-width: 600px) and (max-width: 768px){ 
+    #options li {
+        font-size: 24px;
+        width: 350px;
+        margin: 10px 15%;
+    }
+    #submit-btn, #restart-btn{
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .timer{
+        margin-left: 8%;
+    }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 992px){ 
+    #options li {
+        font-size: 24px;
+        width: 350px;
+        margin: 10px 18%;
+    }
+    #submit-btn, #restart-btn{
+        font-size: 24px;
+        margin-left: 1px;
+    }
+    .timer{
+        margin-left: 22%;
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1200px){ 
+    #question{
+        margin-left: 75px;
+    }
+    #options li {
+        font-size: 26px;
+        width: 350px;
+        margin: 10px 45%;
+    }
+    #submit-btn, #restart-btn{
+        font-size: 26px;
+        margin-left: 325px;
+    }
+    .timer{
+        margin-left: 48%;
+    }
+ }

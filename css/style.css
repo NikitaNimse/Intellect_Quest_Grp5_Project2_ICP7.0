@@ -39,29 +39,12 @@ body{
   background-color:white;
   color:black;
 }
-/* homepage content css */
-
-.theme-icon{
-  height:30px;
-  width:30px;
-  cursor:pointer;
-  padding:5px;
-  border-radius: 5px;
-  background-color: #ffff;
-} 
   /*js script css*/
     .active{
     
       border:1px solid  black;
     }
-    .theme-dark{
-      background-color: black;
-      color:#ffff;
-    }
-    .theme-light{
-      background-color:rgb(255, 255, 200);
-      color:black;
-    }
+    
 
         /*body img */
 
@@ -72,7 +55,13 @@ body{
       margin-left:10px;
      }
 
+       /* body content*/
 
+
+       .logo-heading{
+        display:flex;
+        justify-content: center;
+       }
      .dash-card{
    height:280px;
    padding:10px;
@@ -153,20 +142,17 @@ margin-top:30px;
 /*implemennt like card review */
 
 #main-prodimg{
-
 height:500px;
 width:1500px;
 margin-top: 5px;
 margin-left:10px;
-
-
-
 border:1px solid black;
 border-radius:20px;
 box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
 display: flex;
 margin:20px auto;
 }
+
 .pro-img{
 height:70px;
 width:70px;
@@ -180,6 +166,22 @@ cursor:pointer;
 .pro-img-container{
 display:flex;
 justify-content: center;
+}
+
+.foot {
+  background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
+}
+.para{
+  text-align: justify;
+}
+
+
+
+/* media query */
+
+
+@media (min-width: 768px) and (max-width: 992px){ 
 
 }
 
+  

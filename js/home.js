@@ -12,17 +12,18 @@
    function  changeimg(num){
     const mainimg=document.getElementById('main-prodimg');
     if(num==1){
-        mainimg.src="./Images/homepage_img.jpg";
+        mainimg.src="./Images/brain.jpg";
 
     }
     else if(num==2){
-        mainimg.src="./Images/homepgimg2.jpg";
+        mainimg.src="./Images/squote2 - Copy (2).webp";
     }
     else if(num==3){
         mainimg.src="./Images/hmpg3.jpeg";
     }
     else if(num==4){
-        mainimg.src="./Images/home4.jpeg";
+        mainimg.src="./Images/code img.jpg";
     }
 
 }
+
