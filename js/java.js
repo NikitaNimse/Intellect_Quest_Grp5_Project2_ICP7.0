@@ -1,152 +1,153 @@
 const quizData = [
     {
         question : "1. Which of the following is NOT a primitive data type in Java?",
-        options : [ "int",
-            "String",
-            "boolean",
-            "char"
+        options : [ 
+            "A) int",
+            "B) String",
+            "C) boolean",
+            "D) char"
         ],
-        answer : "String"
+        answer : "B) String"
     },
     {
         question : "2. What is the keyword used to define a class in Java?",
         options : [
-            "function",
-            "define",
-            "class",
-            "create"
+            "A) function",
+            "B) define",
+            "C) class",
+            "D) create"
         ],
-        answer : "class"
+        answer : "C) class"
     },
     {
         question : "3. What is the purpose of the Java Virtual Machine (JVM)?",
         options : [
-            "To write Java code",
-            "To compile Java code into bytecode",
-            "To execute bytecode on different platforms",
-            "All of the above"
+            "A) To write Java code",
+            "B) To compile Java code into bytecode",
+            "C) To execute bytecode on different platforms",
+            "D) All of the above"
         ],
-        answer : "To execute bytecode on different platforms"
+        answer : "C) To execute bytecode on different platforms"
     },
     {
         question : "4. What keyword is used to create an object in Java?",
         options : [
-            "new",
-            "create",
-            "instance",
-            "define"
+            "A) new",
+            "B) create",
+            "C) instance",
+            "D) define"
         ],
-        answer : "new"
+        answer : "A) new"
     },
     {
         question : "5. Which concept allows for reusing code with different functionalities in Java?",
         options : [
-            "Inheritance",
-            "Variables",
-            "Loops",
-            "Comments"
+            "A) Inheritance",
+            "B) Variables",
+            "C) Loops",
+            "D) Comments"
         ],
-        answer : "Inheritance"
+        answer : "A) Inheritance"
     },
     {
         question : "6. What keyword is used to create a loop that continues as long as a condition is true?",
         options : [
-            "if",
-            "for",
-            "do-while",
-            "All of the above"
+            "A) if",
+            "B) for",
+            "C) do-while",
+            "D) All of the above"
         ],
-        answer : "for"
+        answer : "B) for"
     },
     {
         question : "7. What is the access modifier that restricts access to a class member within the same package?",
         options : [
-            "public",
-            "private",
-            "default",
-            "protected"
+            "A) public",
+            "B) private",
+            "C) default",
+            "D) protected"
         ],
-        answer : "private"
+        answer : "B) private"
     },
     {
         question : "8. Which method is automatically called when a garbage collector reclaims an object's memory?",
         options : [
-            "main",
-            "finalize",
-            "destroy",
-            "clean"
+            "A) main",
+            "B) finalize",
+            "C) destroy",
+            "D) clean"
         ],
-        answer : "finalize"
+        answer : "B) finalize"
     },
     {
         question : "9.What is the difference between method overloading and overriding?",
         options : [
-            "Overriding changes the return type, overloading doesn't.",
-            "Overloading changes the return type, overriding doesn't",
-            " There is no difference",
-            "None of the above"
+            "A) Overriding changes the return type, overloading doesn't.",
+            "B) Overloading changes the return type, overriding doesn't",
+            "C) There is no difference",
+            "D) None of the above"
         ],
-        answer : "Overloading changes the return type, overriding doesn't"
+        answer : "B) Overloading changes the return type, overriding doesn't"
     },
     {
         question : "10. What is an interface in Java?",
         options : [
-            "A way to group related variables",
-            "A keyword used for conditional statements",
-            "A collection of methods that must be implemented by a class ",
-            "None of the above"
+            "A) A way to group related variables",
+            "B) A keyword used for conditional statements",
+            "C) A collection of methods that must be implemented by a class ",
+            "D) None of the above"
         ],
-        answer :"A collection of methods that must be implemented by a class "
+        answer :"C) A collection of methods that must be implemented by a class "
     },
     {
         question : "11. What is the main method used for in a Java program?",
         options : [
-            "To define the program's entry point",
-            "To declare variables",
-            "To create object",
-            "To define class"
+            "A) To define the program's entry point",
+            "B) To declare variables",
+            "C) To create object",
+            "D) To define class"
         ],
-        answer : " To define the program's entry point"
+        answer : "A) To define the program's entry point"
     },
     {
         question : "12. What is the String class used for in Java?",
         options : [
-            "To perform mathematical calculatio",
-            "To store and manipulate text data",
-            "To define user input",
-            "To create loops"
+            "A) To perform mathematical calculation",
+            "B) To store and manipulate text data",
+            "C) To define user input",
+            "D) To create loops"
         ],
-        answer : "To store and manipulate text data"
+        answer : "B) To store and manipulate text data"
     },
     {
         question : "13. What is the difference between ++x and x++?",
         options : [
-            "There is no difference",
-            "++x increments x before the value is used, x++ increments x after the value is used.",
-            "++x can only be used with integers, x++ can be used with any data type.",
-            "++x is used for pre-increment, x++ is used for post-decrement."
+            "A) There is no difference",
+            "B) ++x increments x before the value is used, x++ increments x after the value is used.",
+            "C) ++x can only be used with integers, x++ can be used with any data type.",
+            "D) ++x is used for pre-increment, x++ is used for post-decrement."
         ],
-        answer : "++x increments x before the value is used, x++ increments x after the value is used."
+        answer : "B) ++x increments x before the value is used, x++ increments x after the value is used."
     },
     {
         question : "14. Which is the correct syntax for creating an array in Java?",
         options : [
-            " int[] numbers = {1, 2, 3};",
-            "int numbers = {1, 2, 3};",
-            "array numbers = new int[3]; {1, 2, 3};",
-            "None of the Above"
+            "A) int[] numbers = {1, 2, 3};",
+            "B) int numbers = {1, 2, 3};",
+            "C) array numbers = new int[3]; {1, 2, 3};",
+            "D) None of the Above"
         ],
-        answer : " int[] numbers = {1, 2, 3};"
+        answer : "A) int[] numbers = {1, 2, 3};"
     },
     {
         question : "15. What is an exception in Java?",
         options : [
-            "A way to comment out code",
-            "An error in the code that prevents compilation ",
-            " A loop that repeats infinitely",
-            " A variable that can store different data types"
+            "A) A way to comment out code",
+            "B) An error in the code that prevents compilation ",
+            "C) A loop that repeats infinitely",
+            "D) A variable that can store different data types"
         ],
-        answer : "An error in the code that prevents compilation"
+        answer : "B) An error in the code that prevents compilation"
     } 
 ]
 
@@ -193,6 +194,7 @@ function showResult() {
 }
 
 function restartQuiz() {
+    confirm("Are you sure you want to restart java quiz ?");
     currentQuestion = 0;
     score = 0;
     quizContainer.style.display = 'block';
