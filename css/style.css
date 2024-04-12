@@ -182,7 +182,7 @@ justify-content: center;
 
 @media (min-width: 600px) and (max-width: 768px){ 
   #main-prodimg{
-    height:500px;
+    height:450px;
     width:500px;
     margin-top: 5px;
     margin-left:50px;
