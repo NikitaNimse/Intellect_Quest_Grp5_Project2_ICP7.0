@@ -61,7 +61,7 @@ button {
 	justify-content: center;
 	display: block;
 	color: black;
-	background:rgb(102, 104, 228);
+	background:radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
