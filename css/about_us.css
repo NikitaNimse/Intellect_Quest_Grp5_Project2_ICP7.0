@@ -10,12 +10,11 @@ h1 {
     font-family: 'EB Garamond', serif;
     font-family: 'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
-    color: #4d001f;
+    color:black;
     text-align: center;
     font-size: 48px;
-
-    top: 25px;
-    position:relative;
+    /* top: 25px; */
+    /* position:static; */
 
 }
 
