@@ -111,7 +111,7 @@ const quizData = [
     {
         question : "12. What is the String class used for in Java?",
         options : [
-            "To perform mathematical calculatio",
+            "To perform mathematical calculation",
             "To store and manipulate text data",
             "To define user input",
             "To create loops"

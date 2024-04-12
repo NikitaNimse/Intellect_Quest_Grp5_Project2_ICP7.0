@@ -4,20 +4,30 @@
 
 
 
+body{
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f7f6f6;
+}
+.que {
+    margin: 20px;
+    font-size: 25px;
+}
+.timer{
+    margin-left: 900px;
+}
+
 
 main {
     padding: 20px;
 }
-.question-body{
-    display:flex;
-    flex-direction: row;
-    padding: 20px 0px;
-}
+
 #quiz-container {
     text-align: center;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     justify-content: center;
+
+
 }
 
 #question{
@@ -25,41 +35,34 @@ main {
 }
 #options {
     list-style-type: none;
+    margin-left: -70px;
+
 }
 
 #options li {
-    font-size: 26px;
-    width: 550px;
-    margin: 10px 100px;
+    font-size: 24px;
+    width: 500px;
+    margin: 10px 530px;
+    padding: 5px 5px ;
     background-color:rgb(142, 205, 228);
     border: 1px solid rgb(102, 104, 228);
     align-items: center;
     justify-content: center;
-   border-radius: 5px;
+    border-radius: 5px;
 }
 
 #options li:hover{
     background-color:  rgb(102, 104, 228);
+
 }
 
-#submit-btn {
-    font-size: 26px;
+#submit-btn, #restart-btn {
+    font-size: 24px;
     border: none;
     padding: 5px 25px;
     position: relative;
     margin: 20px 0px;
-    margin-left: 10px;
-    border-radius: 8px;
-    background-color: rgb(102, 104, 228);
-    cursor: pointer;
-}
-#restart-btn {
-    font-size: 26px;
-    border: none;
-    padding: 5px 25px;
-    position: relative;
-    margin: 20px 0px;
-    
+    margin-left: 50px;
     border-radius: 8px;
     background-color: rgb(102, 104, 228);
     cursor: pointer;
@@ -68,52 +71,47 @@ main {
 #result-container {
     display: none;
     text-align: center;
-    margin-left: 350px;
 }
 
 @media (min-width: 600px) and (max-width: 768px){ 
-    #options li {
-        font-size: 24px;
-        width: 350px;
-        margin: 10px 15%;
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+        justify-content: space-between;
     }
-    #submit-btn, #restart-btn{
-        font-size: 24px;
-        margin-left: 20px;
-    }
-    .timer{
-        margin-left: 8%;
-    }
- }
- 
- @media (min-width: 768px) and (max-width: 992px){ 
-    #options li {
-        font-size: 24px;
-        width: 350px;
-        margin: 10px 18%;
-    }
-    #submit-btn, #restart-btn{
-        font-size: 24px;
-        margin-left: 1px;
-    }
-    .timer{
-        margin-left: 22%;
-    }
- }
- @media (min-width: 992px) and (max-width: 1200px){ 
-    #question{
-        margin-left: 75px;
-    }
-    #options li {
-        font-size: 26px;
-        width: 350px;
-        margin: 10px 45%;
-    }
-    #submit-btn, #restart-btn{
-        font-size: 26px;
-        margin-left: 325px;
+    .que-body{
+        margin-top: 50px;
     }
     .timer{
         margin-left: 48%;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 992px){ 
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        justify-content: space-between;
+    }
+    .que-body{
+        margin-top: 50px;
+    }
+    .timer{
+        margin-left: 58%;
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1200px){ 
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        justify-content: space-between;
+    }
+    .que-body{
+        margin-top: 50px;
+    }
+    .timer{
+        margin-left: 68%;
     }
  }
