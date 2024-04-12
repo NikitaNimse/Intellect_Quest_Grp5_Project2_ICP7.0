@@ -8,7 +8,11 @@
 main {
     padding: 20px;
 }
-
+.question-body{
+    display:flex;
+    flex-direction: row;
+    padding: 20px 0px;
+}
 #quiz-container {
     text-align: center;
     cursor: pointer;
@@ -26,7 +30,7 @@ main {
 #options li {
     font-size: 26px;
     width: 550px;
-    margin: 10px 420px;
+    margin: 10px 100px;
     background-color:rgb(142, 205, 228);
     border: 1px solid rgb(102, 104, 228);
     align-items: center;
@@ -38,13 +42,24 @@ main {
     background-color:  rgb(102, 104, 228);
 }
 
-#submit-btn, #restart-btn {
+#submit-btn {
     font-size: 26px;
     border: none;
     padding: 5px 25px;
     position: relative;
     margin: 20px 0px;
-    margin-left: 40px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: rgb(102, 104, 228);
+    cursor: pointer;
+}
+#restart-btn {
+    font-size: 26px;
+    border: none;
+    padding: 5px 25px;
+    position: relative;
+    margin: 20px 0px;
+    
     border-radius: 8px;
     background-color: rgb(102, 104, 228);
     cursor: pointer;
@@ -53,6 +68,7 @@ main {
 #result-container {
     display: none;
     text-align: center;
+    margin-left: 350px;
 }
 
 @media (min-width: 600px) and (max-width: 768px){ 
