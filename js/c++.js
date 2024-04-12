@@ -1,78 +1,78 @@
 const quizData = [
     {
         question:' 1. What are containers in C++?',
-        options: [' Functions that manipulate data', 'Objects that store data', 'Data types used for calculations', 'Keywords used for control flow']
+        options: ['A) Functions that manipulate data', ' B) Objects that store data', ' C) Data types used for calculations', ' D) Keywords used for control flow']
         ,
         answer: ' Objects that store data'
     },
     {
         question: ' 2. Which library in C++ provides containers?',
-        options: ['iostream', 'stdlib', ' vector', 'Standard Template Library (STL)'],
+        options: ['A) iostream', 'B)stdlib', ' C) vector', ' D) Standard Template Library (STL)'],
         answer: 'Standard Template Library (STL)'
     },
     {
         question: ' 3. Which of the following is not a container in C++?',
-        options: ['Vector', 'Array', 'Queue', 'Tuple'],
+        options: ['A) Vector', ' B) Array', 'C) Queue', 'D) Tuple'],
         answer: 'Array'
     },
     {
         question: ' 4. What do containers abstract in C++?',
-        options: ['Memory allocation', 'Control flow', 'Data structure implementation', ' File operations'],
+        options: ['A) Memory allocation', 'B) Control flow', 'C) Data structure implementation', 'D) File operations'],
         answer: 'Data structure implementation'
     },
     {
         question: ' 5. Which container provides constant time insertion and removal of elements at the end?',
-        options: ['Vector', 'List', 'Map', ' Set'],
+        options: ['A) Vector', 'B) List', 'C)Map', 'D) Set'],
         answer: 'Vector'
     },
     {
         question: ' 6. Which container is implemented as a doubly-linked list?',
-        options: ['Vector', 'Stack', ' Queue', '  List'],
+        options: ['A) Vector', 'B)Stack', 'C) Queue', '  D)List'],
         answer: 'List'
     },
     {
         question: '7. Which container stores unique elements in sorted order?',
-        options: ['Vector', 'Set', ' Stack', 'Map'],
+        options: ['A) Vector', 'B) Set', ' C)Stack', 'D)Map'],
         answer: 'Set'
     },
     {
         question: '  8. Which container uses First In First Out (FIFO) order for element access',
-        options: ['Vector', 'Stack', 'Queue', 'Map'],
+        options: ['A)Vector', 'B) Stack', 'C) Queue', 'D) Map'],
         answer: 'Queue'
     },
     {
         question: ' 9. Which container does not allow duplicate elements?',
-        options: ['Vector', 'List', 'Set', 'Map'],
+        options: ['A) Vector', 'B) List', 'C) Set', 'D)Map'],
         answer: 'Set'
     },
     {
         question: '10 . Which container is implemented as a balanced binary search tree?',
-        options: ['Vector', 'List', 'Set', 'Map'],
+        options: ['A)Vector', 'B) List', 'C) Set', 'D) Map'],
         answer: 'Set'
     },
     {
         question: '11. What is the purpose of the volatile keyword in C++?',
-        options: ['It indicates that a variable cannot be modified', 'It indicates that a variables value may change unexpectedly, so it should not be optimized', ' It specifies that a variable can only be accessed by one thread at a time', 'It is used to declare constant variables'],
+        options: ['A) It indicates that a variable cannot be modified', 'B) It indicates that a variables value may change unexpectedly, so it should not be optimized', 'C)  It specifies that a variable can only be accessed by one thread at a time', 'D) It is used to declare constant variables'],
         answer: ' It indicates that a variables value may change unexpectedly, so it should not be optimized'
     },
     {
         question: ' 12. What is a reference variable in C++?',
-        options: ['A variable that holds the address of another variable', 'A variable that cannot be changed after initialization', 'An alias for another variable', ' A variable used to store only addresses'],
+        options: ['A) A variable that holds the address of another variable', ' B) A variable that cannot be changed after initialization', 'C) An alias for another variable', ' D) variable used to store only addresses'],
         answer: 'An alias for another variable'
     },
     {
         question: ' 13. What is the role of the "iostream" library in C++?',
-        options: [' It provides input and output functionality', 't is used for mathematical operations', ' It is used for string manipulation', ' It defines the main function'],
+        options: [' A) It provides input and output functionality', 'B) t is used for mathematical operations', ' C)It is used for string manipulation', ' D)It defines the main function'],
         answer:  'It provides input and output functionality'
     },
     {
         question: ' 14.  What is the purpose of the "virtual" keyword in C++?',
-        options: [' It specifies that a function cannot be overriddenr', 'It indicates that a function is implemented in the derived class', ' It enables runtime polymorphism', ' It declares a function that takes no arguments'],
+        options: [' A) specifies that a function cannot be overriddenr', 'B)It indicates that a function is implemented in the derived class', ' C)It enables runtime polymorphism', 'D) It declares a function that takes no arguments'],
         answer: 'It enables runtime polymorphism'
     },
     {
         question: '15 . What is the purpose of the "new" operator in C++?',
-        options: [' It allocates memory for a new variable', 'It deallocates memory', ' It creates a new instance of a class', 'it is used for dynamic memory allocation'],
+        options: [' A)It allocates memory for a new variable', 'B) It deallocates memory', ' C) It creates a new instance of a class', 'D) it is used for dynamic memory allocation'],
         answer: 'it is used for dynamic memory allocationSet'
     },
    
@@ -120,6 +120,7 @@ function showResult() {
 }
 
 function restartQuiz() {
+    comfirm("Are You Sure You Want to restart c++ quiz?");
     currentQuestion = 0;
     score = 0;
     quizContainer.style.display = 'block';
