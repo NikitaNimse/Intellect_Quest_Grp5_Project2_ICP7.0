@@ -36,9 +36,9 @@ const quizData = [
         answer: 'Decimal'
     },
     {
-        question: '  8. What does the '==', '!=', '<', '>', '<=', and '>=' operators do in Python?',
-        options: ['Comparison', ' Assignment', ' Logical', 'Bitwise'],
-        answer: 'Comparison'
+        question: '  8. Which of the following data types is mutable in Python?',
+        options: ['String', ' Tuple', '  List', ' Dictionary'],
+        answer: ' List'
     },
     {
         question: ' 9. Which of the following is the correct way to declare a variable in Python?',
