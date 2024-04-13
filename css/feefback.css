@@ -16,12 +16,12 @@
     
     .card {
     max-width: 33rem;
-    background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%); 
+    background-color:#d0cdcd;
     margin: 50px auto;
     margin-bottom: 110px;
     margin-top: 25px;
     padding: 1rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px black;
     width: 100%;
     border-radius: 0.5rem;
     text-align: center;
@@ -60,9 +60,9 @@
             padding: 5px 30px;
             margin: 25px;
             border: none;
-            background-color: black;
-            color:white;
-            border-radius: 5px;
+            background:radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
+            color: black;
+            border-radius: 50px;
             cursor: pointer;
         }
 
