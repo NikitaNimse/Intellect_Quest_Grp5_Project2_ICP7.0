@@ -40,7 +40,7 @@
         }
         
         .ta{
-            padding: 10px;
+            padding: 20px 100px;
             margin: 20px;
         }
         .review_card{
@@ -64,6 +64,15 @@
             color:white;
             border-radius: 5px;
             cursor: pointer;
+        }
+
+        @media screen and (max-width:600px) {
+
+            .ta{
+                padding: 20px 70px;
+               
+            }
+            
         }
 
     
