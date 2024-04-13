@@ -73,6 +73,13 @@
       alert('Welcome in Intellect Quest');
        const Username= prompt('Enter user Name');
        document.write(` Welcome : ${Username}`);
+
+       
+       function signUp() {
+       document.getElementById("signupBtn").addEventListener("click", signUp);
+       alert("Congratulations! You have successfully signed up!");
+       }
+
        </script>
     
   
@@ -111,7 +118,7 @@
             <labal for="name" class="Head1">Enter Address:</labal><br/>
             <input class="input" type="text" id="name" placeholder="Enter your address" required/>
             
- 
+            <button id="signupBtn" onclick="signUp()">sign up</button>
          </form>
         </div>
         <div class="link">Already a Member <a class="for" href="../pages/login.html">Login</a> 
