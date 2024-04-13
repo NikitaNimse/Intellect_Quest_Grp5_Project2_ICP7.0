@@ -53,12 +53,25 @@
            
           
             box-shadow:0 0 30px rgba(0 , 0 , 0, 0.2);
+
+            /*animation */
+            animation: roll 1s infinite;
             
           }
           .dash-card:hover{
             background-color:#fbe5f5;
           
           }
+
+          /*animation*/
+          @keyframes dash-card{
+            0%{
+              transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
         
         .img{
           width:150px;
