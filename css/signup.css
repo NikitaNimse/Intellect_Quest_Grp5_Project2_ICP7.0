@@ -30,7 +30,7 @@
     background-color:#d0cdcd ;
     border-radius: 10px;
     box-shadow: 0px 8px 16px 0px;
-    margin-top: 250px;
+    margin-top: 300px;
     
 }
 
@@ -93,4 +93,17 @@ button {
     border-radius: 20px;
 }
 
+/* media query */
+
+@media (min-width: 400px) and (max-width: 700px){ 
+    .container{
+        margin-top: 650px;
+    }
+}
+@media (min-width: 700px) and (max-width: 992px){ 
+    .container {
+        margin-top: 650px;
+
+    }
+}
 
