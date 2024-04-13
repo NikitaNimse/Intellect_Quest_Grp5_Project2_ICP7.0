@@ -175,6 +175,7 @@ function loadQuestion() {
     });
 }
 
+
 function checkAnswer(answer) {
     if (answer === quizData[currentQuestion].answer) {
         score++;
