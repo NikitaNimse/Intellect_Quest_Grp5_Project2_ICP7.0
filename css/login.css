@@ -76,3 +76,18 @@ button {
     text-align: center;
     margin-top: 20px;
 }
+
+
+/* media query */
+
+@media (min-width: 400px) and (max-width: 700px){ 
+    .container{
+        margin-top: 450px;
+    }
+}
+@media (min-width: 700px) and (max-width: 992px){ 
+    .container {
+        margin-top: 450px;
+
+    }
+}
