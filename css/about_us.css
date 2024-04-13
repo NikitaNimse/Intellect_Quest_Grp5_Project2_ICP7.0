@@ -17,7 +17,9 @@ h1 {
     /* position:static; */
 
 }
-
+h3{
+    font-size: 18px;
+}
 p {
     font-family: 'Lora', serif;
     color: #3E2922;
@@ -132,10 +134,11 @@ p {
     border-radius: 50%;
 }
 .socialmedia_logo{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     cursor: pointer;
 }
 .social-logo{
+    margin-top: 20px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
