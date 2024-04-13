@@ -3,152 +3,152 @@ const quizData = [
     {
     question : "1) What is the font-size of the h1 heading tag?",
             options : [
-                "3.5 em",
-                "2.17 em",
-                "2 em",
-                "1.5 em"
+                "a) 3.5 em",
+                "b) 2.17 em",
+                "c) 2 em",
+                "d) 1.5 em"
             ],
-            answer : "2 em"
+            answer : "b) 2 em"
         },
         {
             question : "2) Which of the following is the correct way to add background color in HTML?",
             options : [
-                "<body color = “green”>",
-                "<body bg-color = “green”>",
-                "<body style =“background-color=green”>",
-                "<body style = “background-color: green;”>"
+                "a) <body color = “green”>",
+                "b)<body bg-color = “green”>",
+                "c) <body style =“background-color=green”>",
+                "d) <body style = “background-color: green;”>"
             ],
-            answer : "<body style = “background-color: green;”>"
+            answer : "d) <body style = “background-color: green;”>"
         },
         {
             question : "3) Which of the following attributes is used to add link to any element?",
             options : [
-                "link",
-                "ref",
-                "href",
-                "newref"
+                "a) link",
+                "b) ref",
+                "c) href",
+                "d) newref"
             ],
-            answer : "href"
+            answer : "c) href"
         },
         {
             question : "4) Which of the following is the correct way of creating an hyperlink in HTML?",
             options : [
-                "<a>www.geeksforgeeks.org <Geeksforgeeks /a>",
-                "<a href=“www.geeksforgeeks.org” Geeksforgeeks /a>",
-                "<a href= “www.geeksforgeeks.org”>Geeksforgeeks</a>",
-                "<a link=“www.geeksforgeeks.org” Geeksforgeeks> </a>"
+                "a) <a>www.geeksforgeeks.org <Geeksforgeeks /a>",
+                "b) <a href=“www.geeksforgeeks.org” Geeksforgeeks /a>",
+                "c) <a href= “www.geeksforgeeks.org”>Geeksforgeeks</a>",
+                "d) <a link=“www.geeksforgeeks.org” Geeksforgeeks> </a>"
             ],
-            answer : "<a href= “www.geeksforgeeks.org”>Geeksforgeeks</a>"
+            answer : "c) <a href= “www.geeksforgeeks.org”>Geeksforgeeks</a>"
         },
         {
             question : "5) Which among the following is the correct way in HTML to insert an image?",
             options : [
-                "<img url=“https://bit.ly/2FicgIx”>Geeksforgeeks</img>",
-                "<img href=“https://bit.ly/2FicgIx” alt= “Geeksforgeeks”></img>",
-                "<img src=“https://bit.ly/2FicgIx” alt=“Geeksforgeeks”>",
-                "<image src=“https://bit.ly/2FicgIx” alt=“Geeksforgeeks”></image>"
+                "a) <img url=“https://bit.ly/2FicgIx”>Geeksforgeeks</img>",
+                "b) <img href=“https://bit.ly/2FicgIx” alt= “Geeksforgeeks”></img>",
+                "c) <img src=“https://bit.ly/2FicgIx” alt=“Geeksforgeeks”>",
+                "d) <image src=“https://bit.ly/2FicgIx” alt=“Geeksforgeeks”></image>"
             ],
-            answer : "<img src=“https://bit.ly/2FicgIx” alt=“Geeksforgeeks”>"
+            answer : "c) <img src=“https://bit.ly/2FicgIx” alt=“Geeksforgeeks”>"
         }, 
         {
             question : "6) What is the correct CSS syntax to make all paragraph (p) elements bold?",
             options : [
-                "{p font-size:bold;} ",
-                "p{font-weight :bold;}",
-                "<p style=“font-size=bold;”>",
-                "None of the Above"
+                "a) {p font-size:bold;} ",
+                "b) p{font-weight :bold;}",
+                "c) <p style=“font-size=bold;”>",
+                "d) None of the Above"
             ],
-            answer : "p{font-weight :bold;}"
+            answer : "b) p{font-weight :bold;}"
         },
         {
             question : "7) Which is the correct syntax to set the unordered-list item marker to a square.",
             options : [
-                "<ul style=“list-style-type:square”>",
-                "<ul style=“square”>",
-                "<ul list-style: “square”>",
-                "<ul style=square>"
+                "a) <ul style“list-style-type:square”>",
+                "b) <ul style=“square”>",
+                "c) <ul list-style: “square”>",
+                "d) <ul style=square>"
             ],
-            answer : "<ul style=“list-style-type:square”>"
+            answer : "a) <ul style=“list-style-type:square”>"
         },
         {
             question : "8) What is the correct representation to change the color of h2 element?",
             options : [
-                "h2 { background-color: #008000 }",
-                "{h2 background-color: #008000}",
-                "h2.all{ background-color: #008000 }",
-                "{h2.all background-color: #008000}"
+                "a) h2 { background-color: #008000 }",
+                "b) {h2 background-color: #008000}",
+                "c) h2.all{ background-color: #008000 }",
+                "d) {h2.all background-color: #008000}"
             ],
-            answer : "h2 { background-color: #008000 }"
+            answer : "a) h2 { background-color: #008000 }"
         },
         {
             question : "9) If padding: 10px 5px 20px 0px is given. What does this represent?",
             options : [
-                "left:10px , top:5px , right:20px , bottom:0px",
-                "top:10px , right:5px , bottom:20px , left:0px",
-                "right:10px , bottom:5px , left:20px , top:0px",
-                "bottom:10px , left:5px , top:20px , right:0px"
+                "a) left:10px , top:5px , right:20px , bottom:0px",
+                "b) top:10px , right:5px , bottom:20px , left:0px",
+                "c) right:10px , bottom:5px , left:20px , top:0px",
+                "d) bottom:10px , left:5px , top:20px , right:0px"
             ],
-            answer : "top:10px , right:5px , bottom:20px , left:00px"
+            answer : "b) top:10px , right:5px , bottom:20px , left:0px"
         },
         {
             question : "10) Select the correct among the following for linking an external style sheet.",
             options : [
-                "<link rel=“stylesheet” type=“text/css” href=“style.css”>",
-                "<style rel=“stylesheet” type=“text/css” href=“style.css”>",
-                "<link>stylesheet",
-                "<link href=“style.css”>stylesheet"
+                "a) <link rel=“stylesheet” type=“text/css” href=“style.css”>",
+                "b) <style rel=“stylesheet” type=“text/css” href=“style.css”>",
+                "c) <link>stylesheet",
+                "d) <link href=“style.css”>stylesheet"
             ],
-            answer : "<link rel=“stylesheet” type=“text/css” href=“style.css”>"
+            answer : "a) <link rel=“stylesheet” type=“text/css” href=“style.css”>"
         },
         {
             question : "11)What will be the output of the following code snippet let data=’false’; data?console.log(‘first statement’):console.log(‘second statement’);",
             options : [
-                "first statement",
-                "Second statement",
-                "Can’t say",
-                "None of the above"
+                "a) first statement",
+                "b) Second statement",
+                "c) Can’t say",
+                "d) None of the above"
             ],
-            answer : "first statement"
+            answer : "a) first statement"
         },
         {
             question : "12) The advantages of using strict mode in javascript are",
             options : [
-                "Strict mode eliminates some JavaScript silent errors by changing them to throw errors.",
-                "It disables features that are confusing or poorly thought out.",
-                "Strict mode makes it easier to write “secure” JavaScript.",
-                "All of the above"
+                "a) Strict mode eliminates some JavaScript silent errors by changing them to throw errors.",
+                "b) It disables features that are confusing or poorly thought out.",
+                "c) Strict mode makes it easier to write “secure” JavaScript.",
+                "d) All of the above"
             ],
-            answer : "All of the above"
+            answer : "d) All of the above"
         },
         {
             question : "13) What will be the output of the following code snippet let data=7 while(data>=0) { if(data<=5) { data--; continue; } console.log(data); data--; }",
             options : [
-                "7 6 5 4 3 2 1 0",
-                "7 6 5",
-                "7 6",
-                "0 1 2 3 4 5"
+                "a) 7 6 5 4 3 2 1 0",
+                "b) 7 6 5",
+                "c) 7 6",
+                "d) 0 1 2 3 4 5"
             ],
-            answer : "7 6"
+            answer : "c) 7 6"
         },
         {
             question : "14) What will be the output for the following code snippet for(let i=1; ;i++) { Let data= i*5; console.log(data) if(data>=30) break; }",
             options : [
-                "Infinite loop",
-                "5 10 15 20 25 30",
-                "5 10 15 20 25",
-                "5 10 15 20 25 30 35"
+                "a) Infinite loop",
+                "b) 5 10 15 20 25 30",
+                "c) 5 10 15 20 25",
+                "d) 5 10 15 20 25 30 35"
             ],
-            answer : "5 10 15 20 25 30"
+            answer : "b) 5 10 15 20 25 30"
         },
         {
             question : "15) Inside which HTML element do we put the JavaScript?",
             options : [
-                "<javascript>",
-                "<js>",
-                "<src>",
-                "<script>"
+                "a) <javascript>",
+                "b) <js>",
+                "c) <src>",
+                "d) <script>"
             ],
-            answer : "<script>"
+            answer : "d)<script>"
         }      
     
     
