@@ -194,6 +194,7 @@ function showResult() {
 }
 
 function restartQuiz() {
+    confirm("Are you sure you want to restart java quiz ?");
     currentQuestion = 0;
     score = 0;
     quizContainer.style.display = 'block';

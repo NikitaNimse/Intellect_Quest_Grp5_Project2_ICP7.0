@@ -1,11 +1,17 @@
     
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin: 30px ;
+}
 .container {
      display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 20px auto;
+    margin-top: 5px;
     }
     
     .card {
@@ -18,30 +24,46 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     width: 100%;
     border-radius: 0.5rem;
+    text-align: center;
+    }
+
+    #rating{
+        text-align: center;
     }
     
     .star {
-    font-size: 10vh;
-    cursor: pointer;
-    }
-    
-    
-    .star-color {
-    color: rgb(255, 106, 0);
-    }
-    
-    
-    .ta{
+
+        height: 70px;
         padding: 10px;
-        margin: 10px;
-    }
-    .review_card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    font-size: 25px;
-    font-weight:bold;
+        margin-bottom: 20px;
+        cursor: pointer;
+        }
+        
+        .ta{
+            padding: 10px;
+            margin: 20px;
+        }
+        .review_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        margin-bottom: 0;
+        font-size: 25px;
+        font-weight:bold;
+        
+        }
+        
+        .sbtn{
+            font-size: 30px ;
+            padding: 5px 30px;
+            margin: 25px;
+            border: none;
+            background-color: black;
+            color:white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
     
-    }
